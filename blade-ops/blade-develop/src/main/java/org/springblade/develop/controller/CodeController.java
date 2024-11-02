@@ -126,7 +126,7 @@ public class CodeController extends BladeController {
 	@PostMapping("/gen-code")
 	@ApiOperationSupport(order = 6)
 	@Operation(summary = "代码生成", description = "传入ids")
-	public R genCode(@Parameter(description = "主键集合", required = true) @RequestParam String ids, @RequestParam(defaultValue = "sword") String system) {
+	public R genCode(@Parameter(description = "主键集合", required = true) @RequestParam String ids, @RequestParam(defaultValue = "saber3") String system) {
 		Collection<Code> codes = codeService.listByIds(Func.toLongList(ids));
 		codes.forEach(code -> {
 			BladeCodeGenerator generator = new BladeCodeGenerator();
