@@ -198,9 +198,9 @@ public class UserController {
 	@ApiOperationSupport(order = 10)
 	@PreAuth(RoleConstant.HAS_ROLE_ADMIN)
 	@Operation(summary = "用户列表", description = "传入user")
-	public R<List<User>> userList(User user) {
+	public R<List<UserVO>> userList(User user) {
 		List<User> list = userService.list(Condition.getQueryWrapper(user));
-		return R.data(list);
+		return R.data(UserWrapper.build().listVO(list));
 	}
 
 
