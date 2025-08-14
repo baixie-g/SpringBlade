@@ -15,7 +15,7 @@
  */
 package org.springblade.system.wrapper;
 
-import org.springblade.common.constant.CommonConstant;
+import tech.qiantong.qknow.common.constant.CommonConstant;
 import org.springblade.core.mp.support.BaseEntityWrapper;
 import org.springblade.core.tool.api.R;
 import org.springblade.core.tool.node.ForestNodeMerger;

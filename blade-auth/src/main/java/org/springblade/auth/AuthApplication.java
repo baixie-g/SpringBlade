@@ -19,12 +19,16 @@ package org.springblade.auth;
 import org.springblade.core.cloud.client.BladeCloudApplication;
 import org.springblade.core.launch.BladeApplication;
 import org.springblade.core.launch.constant.AppConstant;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * 用户认证服务器
  *
  * @author Chill
  */
+
+
+@EnableFeignClients(basePackages = "org.springblade")
 @BladeCloudApplication
 public class AuthApplication {
 

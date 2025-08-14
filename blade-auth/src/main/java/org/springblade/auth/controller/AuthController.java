@@ -29,13 +29,9 @@ import org.springblade.core.redis.cache.BladeRedis;
 import org.springblade.core.secure.AuthInfo;
 import org.springblade.core.tool.api.R;
 import org.springblade.core.tool.support.Kv;
-import org.springblade.core.tool.utils.Func;
-import org.springblade.core.tool.utils.WebUtil;
 import org.springblade.system.user.entity.UserInfo;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+// import tech.qiantong.qknow.common.cache.CacheNames;
 
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -58,9 +54,13 @@ public class AuthController {
 							 @Parameter(description = "刷新令牌") @RequestParam(required = false) String refreshToken,
 							 @Parameter(description = "租户ID", required = true) @RequestParam(defaultValue = "000000", required = false) String tenantId,
 							 @Parameter(description = "账号") @RequestParam(required = false) String account,
-							 @Parameter(description = "密码") @RequestParam(required = false) String password) {
+							 @Parameter(description = "密码") @RequestParam(required = false) String password,
+		                     @Parameter(description = "用户类型") @RequestHeader(value = TokenUtil.USER_TYPE_HEADER_KEY, defaultValue = TokenUtil.DEFAULT_USER_TYPE) String userType,
+		                     @Parameter(description = "验证码key") @RequestHeader(value = TokenUtil.CAPTCHA_HEADER_KEY, required = false) String captchaKey,
+		                     @Parameter(description = "验证码") @RequestHeader(value = TokenUtil.CAPTCHA_HEADER_CODE, required = false) String captchaCode) {
 
-		String userType = Func.toStr(WebUtil.getRequest().getHeader(TokenUtil.USER_TYPE_HEADER_KEY), TokenUtil.DEFAULT_USER_TYPE);
+
+	//	String userType = Func.toStr(WebUtil.getRequest().getHeader(TokenUtil.USER_TYPE_HEADER_KEY), TokenUtil.DEFAULT_USER_TYPE);
 
 		TokenParameter tokenParameter = new TokenParameter();
 		tokenParameter.getArgs().set("tenantId", tenantId)
@@ -68,7 +68,9 @@ public class AuthController {
 			.set("password", password)
 			.set("grantType", grantType)
 			.set("refreshToken", refreshToken)
-			.set("userType", userType);
+			.set("userType", userType)
+		    .set("captchaKey", captchaKey) // 添加验证码key
+			.set("captchaCode", captchaCode) ;// 添加验证码
 
 		ITokenGranter granter = TokenGranterBuilder.getGranter(grantType);
 		UserInfo userInfo = granter.grant(tokenParameter);

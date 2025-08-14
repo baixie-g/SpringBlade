@@ -54,8 +54,12 @@ public class SocialTokenGranter implements ITokenGranter {
 
 	@Override
 	public UserInfo grant(TokenParameter tokenParameter) {
-		HttpServletRequest request = WebUtil.getRequest();
-		String tenantId = Func.toStr(request.getHeader(TokenUtil.TENANT_HEADER_KEY), TokenUtil.DEFAULT_TENANT_ID);
+		// 从 tokenParameter 中获取所需参数
+		String tenantId = Func.toStr(tokenParameter.getArgs().get("tenantId"), TokenUtil.DEFAULT_TENANT_ID);
+		// 获取当前 HttpServletRequest
+		HttpServletRequest request = (HttpServletRequest) WebUtil.getRequest();
+
+
 		// 开放平台来源
 		String sourceParameter = request.getParameter("source");
 		// 匹配是否有别名定义

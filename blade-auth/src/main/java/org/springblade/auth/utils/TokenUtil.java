@@ -25,6 +25,7 @@ import org.springblade.core.secure.utils.SecureUtil;
 import org.springblade.core.tool.utils.*;
 import org.springblade.system.user.entity.User;
 import org.springblade.system.user.entity.UserInfo;
+// import tech.qiantong.qknow.common.cache.CacheNames;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -112,24 +113,30 @@ public class TokenUtil {
 	 * @param privateKey  私钥
 	 * @return 解密后的密码
 	 */
-	public static String decryptPassword(String rawPassword, String publicKey, String privateKey) {
-		// 其中有空则匹配失败
-		if (StringUtil.isAnyBlank(publicKey, privateKey)) {
-			return StringPool.EMPTY;
+    public static String decryptPassword(String rawPassword, String publicKey, String privateKey) {
+        // 开发容错：若未配置密钥，或传入的并非SM2密文，则按明文返回，便于本地联调
+        if (StringUtil.isAnyBlank(publicKey, privateKey)) {
+            return rawPassword;
+        }
+		// 若明显不是十六进制密文，直接按明文返回
+		if (!java.util.regex.Pattern.matches("^[0-9a-fA-F]+$", StringUtil.removePrefixIgnoreCase(rawPassword, ENCRYPT_PREFIX))) {
+			return rawPassword;
 		}
-		// 处理部分工具类加密不带04前缀的情况
-		if (!StringUtil.startsWithIgnoreCase(rawPassword, ENCRYPT_PREFIX)) {
-			rawPassword = ENCRYPT_PREFIX + rawPassword;
-		}
-		// 解密密码
-		String decryptPassword = SM2Util.decrypt(rawPassword, privateKey);
-		// 签名校验
-		boolean isVerified = SM2Util.verify(decryptPassword, SM2Util.sign(decryptPassword, privateKey), publicKey);
-		if (!isVerified) {
-			return StringPool.EMPTY;
-		}
-		return decryptPassword;
-	}
+        // 处理部分工具类加密不带04前缀的情况
+        if (!StringUtil.startsWithIgnoreCase(rawPassword, ENCRYPT_PREFIX)) {
+            rawPassword = ENCRYPT_PREFIX + rawPassword;
+        }
+        try {
+            // 解密密码
+            String decryptPassword = SM2Util.decrypt(rawPassword, privateKey);
+            // 签名校验失败则回退为明文
+            boolean isVerified = SM2Util.verify(decryptPassword, SM2Util.sign(decryptPassword, privateKey), publicKey);
+            return isVerified ? decryptPassword : rawPassword;
+        } catch (Exception e) {
+            // 出错时回退为明文（便于本地联调）
+            return rawPassword;
+        }
+    }
 
 	/**
 	 * 失败次数上限

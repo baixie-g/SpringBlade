@@ -1,5 +1,6 @@
 #服务器配置
 server:
+  port: 8088
   undertow:
     # 以下的配置会影响buffer,这些buffer会用于服务器连接的IO操作,有点类似netty的池化内存管理
     buffer-size: 1024

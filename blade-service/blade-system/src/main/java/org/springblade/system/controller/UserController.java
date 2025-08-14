@@ -32,7 +32,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
-import org.springblade.common.cache.CacheNames;
+import tech.qiantong.qknow.common.constant.CacheConstants;
 import org.springblade.core.mp.support.Condition;
 import org.springblade.core.mp.support.Query;
 import org.springblade.core.redis.cache.BladeRedis;
@@ -298,7 +298,7 @@ public class UserController {
 			return R.fail("请至少选择一个用户");
 		}
 		List<User> userList = userService.list(Wrappers.<User>lambdaQuery().in(User::getId, Func.toLongList(userIds)));
-		userList.forEach(user -> bladeRedis.del(CacheNames.tenantKey(user.getTenantId(), CacheNames.USER_FAIL_KEY, user.getAccount())));
+        userList.forEach(user -> bladeRedis.del(CacheConstants.tenantKey(user.getTenantId(), CacheConstants.USER_FAIL_KEY, user.getAccount())));
 		return R.success("操作成功");
 	}
 
