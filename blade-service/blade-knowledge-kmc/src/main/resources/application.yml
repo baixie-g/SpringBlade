@@ -1,0 +1,35 @@
+# Spring Boot 主配置文件
+spring:
+  profiles:
+    active: dev
+  application:
+    name: blade-knowledge-kmc
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: ${blade.cloud.nacos.discovery.server-addr:localhost:8848}
+      config:
+        enabled: true
+        server-addr: ${blade.cloud.nacos.config.server-addr:localhost:8848}
+        file-extension: yml
+
+# MyBatis-Plus配置
+mybatis-plus:
+  type-aliases-package: org.springblade.knowledge.kmc.dal.dataobject
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# 日志配置
+logging:
+  level:
+    org.springblade.knowledge.kmc: debug
+    com.baomidou.mybatisplus: debug

@@ -1,0 +1,38 @@
+server:
+  port: 8108
+
+spring:
+  application:
+    name: blade-knowledge-kmc
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        enabled: true
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        username: nacos
+        password: nacos
+        shared-configs:
+          - dataId: blade.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+          - dataId: blade-${spring.profiles.active}.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+          - dataId: ${spring.application.name}-${spring.profiles.active}.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+      discovery:
+        enabled: true
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+
+blade:
+  env: ${spring.profiles.active}
+  name: ${spring.application.name}
+  is-local: true
+  dev-mode: true
+  version: 4.6.0

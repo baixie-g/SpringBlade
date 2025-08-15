@@ -1,6 +1,6 @@
 #服务器配置
 server:
-  port: 8088
+  # port: 8088  # 注释掉全局端口配置，让各服务使用自己的端口
   undertow:
     # 以下的配置会影响buffer,这些buffer会用于服务器连接的IO操作,有点类似netty的池化内存管理
     buffer-size: 1024

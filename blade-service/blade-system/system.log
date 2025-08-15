@@ -1,0 +1,278 @@
+----启动中，读取到的环境变量:[dev]，jar地址:[nested:/home/g0j/桌面/苏研院/SpringBlade/blade-service/blade-system/target/blade-system.jar/]----
+17:31:58.037 [main] INFO com.alibaba.nacos.client.utils.ClientBasicParamUtil -- [settings] [req-serv] nacos-server port:8848
+17:31:58.041 [main] INFO com.alibaba.nacos.client.config.NacosConfigService -- Nacos client key init properties: 
+	serverAddr=127.0.0.1:8848
+	username=nacos
+	password=n***s
+
+17:31:58.048 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Load and match ServerListProvider com.alibaba.nacos.client.address.EndpointServerListProvider, match result: false
+17:31:58.048 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Load and match ServerListProvider com.alibaba.nacos.client.address.PropertiesListProvider, match result: true
+17:31:58.048 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Will use com.alibaba.nacos.client.address.PropertiesListProvider as ServerListProvider
+17:31:58.051 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- [settings] [http-client] connect timeout:1000
+17:31:58.051 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- [settings] [http-client] read timeout:3000
+17:31:58.052 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- PER_TASK_CONFIG_SIZE: 3000.0
+17:31:58.071 [main] INFO com.alibaba.nacos.common.labels -- DefaultLabelsCollectorManager get labels.....
+17:31:58.071 [main] INFO com.alibaba.nacos.common.labels -- Process LabelsCollector with [name:defaultNacosLabelsCollector]
+17:31:58.071 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect properties raw labels: null
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect properties labels: {}
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect jvm raw labels: null
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect jvm labels: {}
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect env raw labels: null
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect env labels: {}
+17:31:58.072 [main] INFO com.alibaba.nacos.common.labels -- DefaultLabelsCollectorManager get labels finished,labels :{}
+17:31:58.079 [main] INFO com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager -- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:31:58.079 [main] INFO com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager -- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:31:58.160 [Thread-2] INFO com.alibaba.nacos.client.auth.ram.identify.CredentialWatcher -- null No credential found
+17:31:58.179 [main] INFO com.alibaba.nacos.client.config.impl.Limiter -- limitTime:5.0
+17:31:58.289 [main] INFO com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor -- LOCAL_SNAPSHOT_PATH:/home/g0j/nacos/config
+17:31:58.293 [main] INFO com.alibaba.nacos.common.remote.client -- [RpcClientFactory] create a new rpc client of 4baae470-948e-4538-ad33-3494fb2a65b1_config-0
+17:31:58.306 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$329/0x00007fcbcc246f28
+17:31:58.306 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$330/0x00007fcbcc247358
+17:31:58.307 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientFuzzyWatchNotifyRequestHandler
+17:31:58.307 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+17:31:58.307 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+17:31:58.308 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+17:31:58.322 [main] INFO com.alibaba.nacos.common.remote.client.grpc.GrpcClient -- grpc client connection server: 127.0.0.1 ip, serverPort: 9848, grpcTslConfig: {"enableTls":false,"mutualAuthEnable":false,"trustAll":true}
+17:31:58.675 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Ready to get current node abilities...
+17:31:58.676 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+17:31:58.677 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Initialize current abilities finish...
+17:31:58.678 [main] INFO com.alibaba.nacos.common.ability.discover.NacosAbilityManagerHolder -- [AbilityControlManager] Successfully initialize AbilityControlManager
+17:31:58.689 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1755250318621_127.0.0.1_45492
+17:31:58.689 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Notify connected event to listeners.
+17:31:58.689 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.client.config.impl.ClientWorker -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Connected,notify listen context...
+17:31:58.689 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.client.config.impl.ClientWorker -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Connected,notify fuzzy listen context...
+17:31:58.689 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+17:31:58.690 [main] INFO com.alibaba.nacos.common.remote.client -- [4baae470-948e-4538-ad33-3494fb2a65b1_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$346/0x00007fcbcc383768
+17:31:58.735 [main] INFO com.alibaba.nacos.client.config.utils.JvmUtil -- isMultiInstance:false
+2025-08-15 17:31:58.981 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/g0j/logs/csp/
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+2025-08-15 17:31:59.054 WARN  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] config[dataId=blade-system-dev.yaml, group=DEFAULT_GROUP] is empty
+2025-08-15 17:31:59.055 INFO  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=blade-dev.yaml, group=DEFAULT_GROUP] success
+2025-08-15 17:31:59.055 INFO  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=blade.yaml, group=DEFAULT_GROUP] success
+ _____               _                 ______  _             _
+/  ___|             (_)                | ___ \| |           | |
+\ `--.  _ __   _ __  _  _ __    __ _   | |_/ /| |  __ _   __| |  ___
+ `--. \| '_ \ | '__|| || '_ \  / _` |  | ___ \| | / _` | / _` | / _ \
+/\__/ /| |_) || |   | || | | || (_| |  | |_/ /| || (_| || (_| ||  __/
+\____/ | .__/ |_|   |_||_| |_| \__, |  \____/ |_| \__,_| \__,_| \___|
+       | |                      __/ |
+       |_|                     |___/
+
+:: SpringBlade :: blade-system:dev :: Running SpringBoot 3.5.3 :: 
+
+2025-08-15 17:31:59.436 INFO  [main] o.s.system.SystemApplication - The following 1 profile is active: "dev"
+2025-08-15 17:31:59.453 WARN  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] config[dataId=blade-system-dev.yaml, group=DEFAULT_GROUP] is empty
+2025-08-15 17:31:59.453 INFO  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=blade-dev.yaml, group=DEFAULT_GROUP] success
+2025-08-15 17:31:59.453 INFO  [main] c.a.c.n.c.NacosConfigDataLoader - [Nacos Config] Load config[dataId=blade.yaml, group=DEFAULT_GROUP] success
+2025-08-15 17:32:00.187 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'blade-system.FeignClientSpecification' with a different definition: replacing [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2025-08-15 17:32:00.188 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'blade-system.FeignClientSpecification' with a different definition: replacing [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2025-08-15 17:32:00.188 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'blade-system.FeignClientSpecification' with a different definition: replacing [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Generic bean: class=org.springframework.cloud.openfeign.FeignClientSpecification; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2025-08-15 17:32:00.319 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'sentinelWebInterceptor' with a different definition: replacing [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration; factoryMethodName=sentinelWebInterceptor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/alibaba/cloud/sentinel/SentinelWebAutoConfiguration.class]] with [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=org.springblade.core.cloud.config.BladeSentinelFilterConfiguration; factoryMethodName=sentinelWebInterceptor; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springblade/core/cloud/config/BladeSentinelFilterConfiguration.class]]
+2025-08-15 17:32:00.319 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'sentinelWebMvcConfig' with a different definition: replacing [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration; factoryMethodName=sentinelWebMvcConfig; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/alibaba/cloud/sentinel/SentinelWebAutoConfiguration.class]] with [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=org.springblade.core.cloud.config.BladeSentinelFilterConfiguration; factoryMethodName=sentinelWebMvcConfig; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springblade/core/cloud/config/BladeSentinelFilterConfiguration.class]]
+2025-08-15 17:32:00.466 INFO  [main] o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'scopeModelHandler' with a different definition: replacing [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=org.springblade.core.datascope.config.DataScopeConfiguration; factoryMethodName=scopeModelHandler; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springblade/core/datascope/config/DataScopeConfiguration.class]] with [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=org.springblade.system.config.ScopeConfiguration; factoryMethodName=scopeModelHandler; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springblade/system/config/ScopeConfiguration.class]]
+2025-08-15 17:32:00.759 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-15 17:32:00.761 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-15 17:32:00.787 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-08-15 17:32:00.914 WARN  [main] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[org.springblade.system]' package. Please check your configuration.
+2025-08-15 17:32:00.994 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=d4d5d8d8-df15-3deb-a398-748fd4bcbe2d
+2025-08-15 17:32:00.996 INFO  [main] o.s.c.l.p.BladePropertySourcePostProcessor - BladePropertySourcePostProcessor init.
+2025-08-15 17:32:01.042 INFO  [main] o.s.c.l.p.BladePropertySourcePostProcessor - BladePropertySourcePostProcessor process @BladePropertySource bean.
+2025-08-15 17:32:02.271 WARN  [main] io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-08-15 17:32:02.404 INFO  [main] io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-08-15 17:32:02.408 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2951 ms
+2025-08-15 17:32:02.955 INFO  [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-08-15 17:32:03.178 INFO  [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.12 
+2025-08-15 17:32:04.925 INFO  [main] o.s.c.o.FeignClientFactoryBean - For 'blade-system' URL not provided. Will try picking an instance via load-balancing.
+2025-08-15 17:32:05.049 INFO  [main] o.s.c.o.FeignClientFactoryBean - For 'blade-system' URL not provided. Will try picking an instance via load-balancing.
+2025-08-15 17:32:05.705 INFO  [main] c.a.c.s.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/lazy-menu-list]}" onto org.springblade.system.controller.MenuController#lazyMenuList(Long, Map)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/list]}" onto org.springblade.system.controller.UserController#list(Map, Query, BladeUser)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/buttons]}" onto org.springblade.system.controller.MenuController#buttons(BladeUser)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getRole]}" onto org.springblade.system.feign.SysClient#getRole(Long)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/export-template]}" onto org.springblade.system.controller.UserController#exportUser(HttpServletResponse)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/tree]}" onto org.springblade.system.controller.DictController#tree()
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/v3/api-docs/swagger-config], produces [application/json]}" onto org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/dict/remove]}" onto org.springblade.system.controller.DictController#remove(String)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getRoleNames]}" onto org.springblade.system.feign.SysClient#getRoleNames(String)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/dict/submit]}" onto org.springblade.system.controller.DictController#submit(Dict)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/post/page]}" onto org.springblade.system.controller.PostController#page(PostVO, Query)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/routes]}" onto org.springblade.system.controller.MenuController#routes(BladeUser)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/client/save]}" onto org.springblade.system.controller.AuthClientController#save(AuthClient)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/client/detail]}" onto org.springblade.system.controller.AuthClientController#detail(AuthClient)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dept/list]}" onto org.springblade.system.controller.DeptController#list(Map, BladeUser)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/dept/remove]}" onto org.springblade.system.controller.DeptController#remove(String)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/dept/submit]}" onto org.springblade.system.controller.DeptController#submit(Dept)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/region/select]}" onto org.springblade.system.controller.RegionController#select(String)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/region/save]}" onto org.springblade.system.controller.RegionController#save(Region)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getDept]}" onto org.springblade.system.feign.SysClient#getDept(Long)
+2025-08-15 17:32:05.846 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{ [/error], produces [text/html]}" onto org.springblade.core.log.error.BladeErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/region/update]}" onto org.springblade.system.controller.RegionController#update(Region)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/tenant-id]}" onto org.springblade.system.feign.SysClient#getTenant(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/export-user]}" onto org.springblade.system.controller.UserController#exportUser(Map, BladeUser, HttpServletResponse)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/data-scope/update]}" onto org.springblade.system.controller.DataScopeController#update(DataScope)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/region/detail]}" onto org.springblade.system.controller.RegionController#detail(Region)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/client/update]}" onto org.springblade.system.controller.AuthClientController#update(AuthClient)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/post/select]}" onto org.springblade.system.controller.PostController#select(String, BladeUser)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/post/list]}" onto org.springblade.system.controller.PostController#list(Post, Query)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/detail]}" onto org.springblade.system.controller.MenuController#detail(Menu)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getRoleAlias]}" onto org.springblade.system.feign.SysClient#getRoleAlias(Long)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/data-scope/detail]}" onto org.springblade.system.controller.DataScopeController#detail(DataScope)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/list]}" onto org.springblade.system.controller.MenuController#list(Map)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/param/detail]}" onto org.springblade.system.controller.ParamController#detail(Param)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/v3/api-docs/{group}], produces [application/json]}" onto org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiJson(HttpServletRequest, String, String, Locale)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/reset-password]}" onto org.springblade.system.controller.UserController#resetPassword(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/post/detail]}" onto org.springblade.system.controller.PostController#detail(Post)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/update-password]}" onto org.springblade.system.controller.UserController#updatePassword(BladeUser, String, String, String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/menu-list]}" onto org.springblade.system.controller.MenuController#menuList(Map)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/region/remove]}" onto org.springblade.system.controller.RegionController#remove(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/detail]}" onto org.springblade.system.controller.UserController#detail(User)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/list]}" onto org.springblade.system.controller.DictController#list(Map)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/data-scope/list]}" onto org.springblade.system.controller.DataScopeController#list(DataScope, Query)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/data-scope/remove]}" onto org.springblade.system.controller.DataScopeController#remove(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/client/remove]}" onto org.springblade.system.controller.AuthClientController#remove(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/tenant/select]}" onto org.springblade.system.controller.TenantController#select(Tenant, BladeUser)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getDeptName]}" onto org.springblade.system.feign.SysClient#getDeptName(Long)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/client/submit]}" onto org.springblade.system.controller.AuthClientController#submit(AuthClient)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/save-user]}" onto org.springblade.system.feign.UserClient#saveUser(User)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/post/update]}" onto org.springblade.system.controller.PostController#update(Post)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/getList]}" onto org.springblade.system.feign.DictClient#getList(String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/update]}" onto org.springblade.system.controller.UserController#update(User)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/swagger-ui.html]}" onto org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/role/tree]}" onto org.springblade.system.controller.RoleController#tree(String, BladeUser)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/tenant/detail]}" onto org.springblade.system.controller.TenantController#detail(Tenant)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/role/grant]}" onto org.springblade.system.controller.RoleController#grant(GrantVO)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getDeptIds]}" onto org.springblade.system.feign.SysClient#getDeptIds(String, String)
+2025-08-15 17:32:05.847 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/v3/api-docs.yaml/{group}], produces [application/vnd.oai.openapi]}" onto org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource#openapiYaml(HttpServletRequest, String, String, Locale)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/dictionary]}" onto org.springblade.system.controller.DictController#dictionary(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/user-info]}" onto org.springblade.system.feign.UserClient#userInfo(String, String, String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/menu/remove]}" onto org.springblade.system.controller.MenuController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/region/submit]}" onto org.springblade.system.controller.RegionController#submit(Region)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/grant-tree]}" onto org.springblade.system.controller.MenuController#grantTree(BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/menu/submit]}" onto org.springblade.system.controller.MenuController#submit(Menu)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/param/remove]}" onto org.springblade.system.controller.ParamController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/tenant/remove]}" onto org.springblade.system.controller.TenantController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/post/remove]}" onto org.springblade.system.controller.PostController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/data-scope/submit]}" onto org.springblade.system.controller.DataScopeController#submit(DataScope)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/param/submit]}" onto org.springblade.system.controller.ParamController#submit(Param)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/tenant/submit]}" onto org.springblade.system.controller.TenantController#submit(Tenant)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/remove]}" onto org.springblade.system.controller.UserController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/role/detail]}" onto org.springblade.system.controller.RoleController#detail(Role)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/client/data-scope/by-mapper]}" onto org.springblade.system.feign.DataScopeClient#getDataScopeByMapper(String, String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/post/submit]}" onto org.springblade.system.controller.PostController#submit(Post)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/v3/api-docs], produces [application/json]}" onto org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/getValue]}" onto org.springblade.system.feign.DictClient#getValue(String, Integer)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/post/save]}" onto org.springblade.system.controller.PostController#save(Post)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/auth-routes]}" onto org.springblade.system.controller.MenuController#authRoutes(BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/submit]}" onto org.springblade.system.controller.UserController#submit(User)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/region/lazy-tree]}" onto org.springblade.system.controller.RegionController#lazyTree(String, Map)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/tenant]}" onto org.springblade.system.feign.SysClient#getTenant(Long)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getPostNames]}" onto org.springblade.system.feign.SysClient#getPostNames(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/import-user]}" onto org.springblade.system.controller.UserController#importUser(MultipartFile, Integer)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/param/list]}" onto org.springblade.system.controller.ParamController#list(Map, Query)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getPostIds]}" onto org.springblade.system.feign.SysClient#getPostIds(String, String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getDeptNames]}" onto org.springblade.system.feign.SysClient#getDeptNames(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getRoleIds]}" onto org.springblade.system.feign.SysClient#getRoleIds(String, String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/tenant/info]}" onto org.springblade.system.controller.TenantController#info(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/role-tree-keys]}" onto org.springblade.system.controller.MenuController#roleTreeKeys(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/data-scope/save]}" onto org.springblade.system.controller.DataScopeController#save(DataScope)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/region/list]}" onto org.springblade.system.controller.RegionController#list(Region, Query)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}" onto org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiYaml(HttpServletRequest, String, Locale)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/user-auth-info]}" onto org.springblade.system.feign.UserClient#userAuthInfo(UserOauth)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/role/tree-by-id]}" onto org.springblade.system.controller.RoleController#treeById(Long, BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/info]}" onto org.springblade.system.controller.UserController#info(BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{ [/error]}" onto org.springblade.core.log.error.BladeErrorController#error(HttpServletRequest)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/role/list]}" onto org.springblade.system.controller.RoleController#list(Map, BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/user-list]}" onto org.springblade.system.controller.UserController#userList(User)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/role/remove]}" onto org.springblade.system.controller.RoleController#remove(String)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/role/submit]}" onto org.springblade.system.controller.RoleController#submit(Role, BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/tenant/page]}" onto org.springblade.system.controller.TenantController#page(Tenant, Query)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/client/list]}" onto org.springblade.system.controller.AuthClientController#list(AuthClient, Query)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dept/tree]}" onto org.springblade.system.controller.DeptController#tree(String, BladeUser)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/register-guest]}" onto org.springblade.system.controller.UserController#registerGuest(User, Long)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/sys/getRoleName]}" onto org.springblade.system.feign.SysClient#getRoleName(Long)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dict/detail]}" onto org.springblade.system.controller.DictController#detail(Dict)
+2025-08-15 17:32:05.848 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/region/lazy-list]}" onto org.springblade.system.controller.RegionController#lazyList(String, Map)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/client/data-scope/dept-ancestors]}" onto org.springblade.system.feign.DataScopeClient#getDeptAncestors(Long)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/unlock]}" onto org.springblade.system.controller.UserController#unlock(String)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/dept/detail]}" onto org.springblade.system.controller.DeptController#detail(Dept)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{POST [/user/grant]}" onto org.springblade.system.controller.UserController#grant(String, String)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/tenant/list]}" onto org.springblade.system.controller.TenantController#list(Map, Query, BladeUser)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/user/user-info-by-id]}" onto org.springblade.system.feign.UserClient#userInfo(Long)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/client/data-scope/by-code]}" onto org.springblade.system.feign.DataScopeClient#getDataScopeByCode(String)
+2025-08-15 17:32:05.849 INFO  [main] o.s.c.c.v.BladeRequestMappingHandlerMapping - Mapped "{GET [/menu/tree]}" onto org.springblade.system.controller.MenuController#tree()
+2025-08-15 17:32:06.271 INFO  [main] c.b.m.e.s.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7f4596d0
+2025-08-15 17:32:06.517 INFO  [main] o.s.c.boot.config.RetryConfiguration - configServerRetryInterceptor: Changing backOffOptions to initial: 1000, multiplier: 1.2, maxInterval: 5000
+2025-08-15 17:32:06.617 INFO  [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Inconsistent constructor declaration on bean with name 'org.springblade.core.launch.server.ServerInfo': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.springblade.core.launch.server.ServerInfo(org.springframework.boot.autoconfigure.web.ServerProperties)
+2025-08-15 17:32:06.634 INFO  [main] o.s.c.o.FeignClientFactoryBean - For 'blade-log' URL not provided. Will try picking an instance via load-balancing.
+2025-08-15 17:32:06.643 INFO  [main] o.s.core.log.logger.BladeLogger - blade-system: BladeLogger init success!
+2025-08-15 17:32:06.652 INFO  [main] o.s.c.r.pubsub.RedisPubSubPublisher - RPubSubPublisher init success.
+2025-08-15 17:32:07.039 WARN  [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-15 17:32:07.050 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 19 endpoints beneath base path '/actuator'
+2025-08-15 17:32:07.120 INFO  [main] io.undertow - starting server: Undertow - 2.3.18.Final
+2025-08-15 17:32:07.127 INFO  [main] org.xnio - XNIO version 3.8.16.Final
+2025-08-15 17:32:07.133 INFO  [main] org.xnio.nio - XNIO NIO Implementation Version 3.8.16.Final
+2025-08-15 17:32:07.146 INFO  [main] org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-08-15 17:32:07.165 INFO  [main] io.undertow - stopping server: Undertow - 2.3.18.Final
+2025-08-15 17:32:07.171 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-15 17:32:27.185 INFO  [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-08-15 17:32:27.186 INFO  [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-08-15 17:32:27.199 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-15 17:32:27.218 ERROR [main] o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:408)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:394)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:586)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:364)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:310)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149)
+	at org.springblade.core.launch.BladeApplication.run(BladeApplication.java:48)
+	at org.springblade.system.SystemApplication.main(SystemApplication.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Undertow
+	at org.springframework.boot.web.embedded.undertow.UndertowWebServer.start(UndertowWebServer.java:132)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:405)
+	... 21 common frames omitted
+Caused by: java.lang.RuntimeException: java.net.BindException: 地址已在使用
+	at io.undertow.Undertow.start(Undertow.java:254)
+	at org.springframework.boot.web.embedded.undertow.UndertowWebServer.start(UndertowWebServer.java:118)
+	... 23 common frames omitted
+Caused by: java.net.BindException: 地址已在使用
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:178)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:310)
+	at io.undertow.Undertow.start(Undertow.java:196)
+	... 24 common frames omitted
+2025-08-15 17:32:27.220 INFO  [Thread-3] c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-15 17:32:27.221 INFO  [Thread-1] c.a.n.c.executor.ThreadPoolManager - [ThreadPoolManager] Start destroying ThreadPool
+2025-08-15 17:32:27.221 INFO  [Thread-5] c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-08-15 17:32:27.221 INFO  [Thread-3] c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Completed destruction of HttpClient
+2025-08-15 17:32:27.221 INFO  [Thread-5] c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Completed destruction of Publisher
+2025-08-15 17:32:27.221 INFO  [Thread-1] c.a.n.c.executor.ThreadPoolManager - [ThreadPoolManager] Completed destruction of ThreadPool

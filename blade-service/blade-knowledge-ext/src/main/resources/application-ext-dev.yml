@@ -1,0 +1,24 @@
+# 实体消歧API配置
+disambiguation:
+  api:
+    url: http://localhost:8002/match-candidates
+    timeout: 10000
+    retry-count: 3
+
+# 抽取API配置
+extraction:
+  api:
+    url: http://127.0.0.1:8000/extract
+    timeout: 30000
+    retry-count: 3
+
+# 非结构化抽取类型配置
+unstruct:
+  type: deepke  # deepke 或 model
+
+# Neo4j配置
+neo4j:
+  labels:
+    unstructured: ExtUnStruck
+    structured: ExtStruck
+    dynamic-entity: DynamicEntity

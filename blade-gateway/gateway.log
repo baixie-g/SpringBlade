@@ -1,0 +1,279 @@
+----启动中，读取到的环境变量:[dev]，jar地址:[nested:/home/g0j/桌面/苏研院/SpringBlade/blade-gateway/target/blade-gateway.jar/]----
+17:32:08.045 [main] INFO com.alibaba.nacos.client.utils.ClientBasicParamUtil -- [settings] [req-serv] nacos-server port:8848
+17:32:08.048 [main] INFO com.alibaba.nacos.client.config.NacosConfigService -- Nacos client key init properties: 
+	serverAddr=127.0.0.1:8848
+	username=nacos
+	password=n***s
+
+17:32:08.053 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Load and match ServerListProvider com.alibaba.nacos.client.address.EndpointServerListProvider, match result: false
+17:32:08.053 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Load and match ServerListProvider com.alibaba.nacos.client.address.PropertiesListProvider, match result: true
+17:32:08.053 [main] INFO com.alibaba.nacos.client.address.AbstractServerListManager -- Will use com.alibaba.nacos.client.address.PropertiesListProvider as ServerListProvider
+17:32:08.057 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- [settings] [http-client] connect timeout:1000
+17:32:08.057 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- [settings] [http-client] read timeout:3000
+17:32:08.058 [main] INFO com.alibaba.nacos.client.utils.ParamUtil -- PER_TASK_CONFIG_SIZE: 3000.0
+17:32:08.073 [main] INFO com.alibaba.nacos.common.labels -- DefaultLabelsCollectorManager get labels.....
+17:32:08.073 [main] INFO com.alibaba.nacos.common.labels -- Process LabelsCollector with [name:defaultNacosLabelsCollector]
+17:32:08.073 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect properties raw labels: null
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect properties labels: {}
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect jvm raw labels: null
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect jvm labels: {}
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect env raw labels: null
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- default nacos collect env labels: {}
+17:32:08.074 [main] INFO com.alibaba.nacos.common.labels -- DefaultLabelsCollectorManager get labels finished,labels :{}
+17:32:08.080 [main] INFO com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager -- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+17:32:08.080 [main] INFO com.alibaba.nacos.plugin.auth.spi.client.ClientAuthPluginManager -- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+17:32:08.086 [main] INFO com.alibaba.nacos.client.auth.ram.identify.CredentialWatcher -- null No credential found
+17:32:08.209 [main] INFO com.alibaba.nacos.client.config.impl.Limiter -- limitTime:5.0
+17:32:08.319 [main] INFO com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor -- LOCAL_SNAPSHOT_PATH:/home/g0j/nacos/config
+17:32:08.323 [main] INFO com.alibaba.nacos.common.remote.client -- [RpcClientFactory] create a new rpc client of d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0
+17:32:08.335 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$319/0x00007ec118246790
+17:32:08.336 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$320/0x00007ec118246bc0
+17:32:08.336 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientFuzzyWatchNotifyRequestHandler
+17:32:08.336 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+17:32:08.336 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+17:32:08.337 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+17:32:08.357 [main] INFO com.alibaba.nacos.common.remote.client.grpc.GrpcClient -- grpc client connection server: 127.0.0.1 ip, serverPort: 9848, grpcTslConfig: {"enableTls":false,"mutualAuthEnable":false,"trustAll":true}
+17:32:08.700 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Ready to get current node abilities...
+17:32:08.702 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+17:32:08.702 [main] INFO com.alibaba.nacos.common.ability.AbstractAbilityControlManager -- Initialize current abilities finish...
+17:32:08.703 [main] INFO com.alibaba.nacos.common.ability.discover.NacosAbilityManagerHolder -- [AbilityControlManager] Successfully initialize AbilityControlManager
+17:32:08.714 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1755250328642_127.0.0.1_48952
+17:32:08.715 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Notify connected event to listeners.
+17:32:08.715 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.client.config.impl.ClientWorker -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Connected,notify listen context...
+17:32:08.715 [com.alibaba.nacos.client.remote.worker.0] INFO com.alibaba.nacos.client.config.impl.ClientWorker -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Connected,notify fuzzy listen context...
+17:32:08.715 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+17:32:08.715 [main] INFO com.alibaba.nacos.common.remote.client -- [d76cf674-2f1d-4230-9f00-b21aaa20588e_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$336/0x00007ec118383730
+17:32:08.763 [main] INFO com.alibaba.nacos.client.config.utils.JvmUtil -- isMultiInstance:false
+INFO: Sentinel log output type is: file
+INFO: Sentinel log charset is: utf-8
+INFO: Sentinel log base directory is: /home/g0j/logs/csp/
+INFO: Sentinel log name use pid is: false
+INFO: Sentinel log level is: INFO
+2025-08-15T17:32:08.989+08:00  WARN 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] config[dataId=blade-gateway-dev.yaml, group=DEFAULT_GROUP] is empty
+2025-08-15T17:32:08.990+08:00  INFO 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] Load config[dataId=blade-dev.yaml, group=DEFAULT_GROUP] success
+2025-08-15T17:32:08.990+08:00  INFO 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] Load config[dataId=blade.yaml, group=DEFAULT_GROUP] success
+2025-08-15T17:32:09.245+08:00  WARN 353597 --- [blade-gateway] [           main] ServerWebfluxPropertiesMigrationListener : 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.routes[0].id
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].id
+	Key: spring.cloud.gateway.routes[0].uri
+		Line: 29
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].uri
+	Key: spring.cloud.gateway.routes[0].predicates[0]
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].predicates[0]
+	Key: spring.cloud.gateway.routes[0].filters[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].filters[0]
+	Key: spring.cloud.gateway.routes[1].id
+		Line: 34
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].id
+	Key: spring.cloud.gateway.routes[1].uri
+		Line: 35
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].uri
+	Key: spring.cloud.gateway.routes[1].predicates[0]
+		Line: 37
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].predicates[0]
+	Key: spring.cloud.gateway.routes[1].filters[0]
+		Line: 39
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].filters[0]
+
+Property source 'applicationConfig: [classpath:/bootstrap.yml]':
+	Key: spring.cloud.gateway.routes[0].id
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].id
+	Key: spring.cloud.gateway.routes[0].uri
+		Line: 29
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].uri
+	Key: spring.cloud.gateway.routes[0].predicates[0]
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].predicates[0]
+	Key: spring.cloud.gateway.routes[0].filters[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].filters[0]
+	Key: spring.cloud.gateway.routes[1].id
+		Line: 34
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].id
+	Key: spring.cloud.gateway.routes[1].uri
+		Line: 35
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].uri
+	Key: spring.cloud.gateway.routes[1].predicates[0]
+		Line: 37
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].predicates[0]
+	Key: spring.cloud.gateway.routes[1].filters[0]
+		Line: 39
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].filters[0]
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+
+2025-08-15T17:32:09.247+08:00  WARN 353597 --- [blade-gateway] [           main] o.s.b.c.p.m.PropertiesMigrationListener  : 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'applicationConfig: [classpath:/bootstrap.yml]':
+	Key: spring.cloud.gateway.discovery.locator.enabled
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.enabled
+	Key: spring.cloud.gateway.discovery.locator.lower-case-service-id
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id
+
+Property source 'Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.discovery.locator.enabled
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.enabled
+	Key: spring.cloud.gateway.discovery.locator.lower-case-service-id
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+
+ _____               _                 ______  _             _
+/  ___|             (_)                | ___ \| |           | |
+\ `--.  _ __   _ __  _  _ __    __ _   | |_/ /| |  __ _   __| |  ___
+ `--. \| '_ \ | '__|| || '_ \  / _` |  | ___ \| | / _` | / _` | / _ \
+/\__/ /| |_) || |   | || | | || (_| |  | |_/ /| || (_| || (_| ||  __/
+\____/ | .__/ |_|   |_||_| |_| \__, |  \____/ |_| \__,_| \__,_| \___|
+       | |                      __/ |
+       |_|                     |___/
+
+:: SpringBlade :: blade-gateway:dev :: Running SpringBoot 3.5.3 :: 
+
+2025-08-15T17:32:09.361+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.gateway.GateWayApplication           : The following 1 profile is active: "dev"
+2025-08-15T17:32:09.370+08:00  WARN 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] config[dataId=blade-gateway-dev.yaml, group=DEFAULT_GROUP] is empty
+2025-08-15T17:32:09.370+08:00  INFO 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] Load config[dataId=blade-dev.yaml, group=DEFAULT_GROUP] success
+2025-08-15T17:32:09.370+08:00  INFO 353597 --- [blade-gateway] [           main] c.a.c.n.c.NacosConfigDataLoader          : [Nacos Config] Load config[dataId=blade.yaml, group=DEFAULT_GROUP] success
+2025-08-15T17:32:10.016+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'discoverClientRouteServiceConvert' with a different definition: replacing [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=reactiveDiscoveryConfiguration; factoryMethodName=discoverClientRouteServiceConvert; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/springblade/gateway/config/ReactiveDiscoveryConfiguration.class]] with [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=knife4jGatewayAutoConfiguration.Knife4jDiscoverConfiguration.ReactiveDiscoveryClientRouteDefinitionLocatorConfiguration; factoryMethodName=discoverClientRouteServiceConvert; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/github/xiaoymin/knife4j/spring/gateway/Knife4jGatewayAutoConfiguration$Knife4jDiscoverConfiguration$ReactiveDiscoveryClientRouteDefinitionLocatorConfiguration.class]]
+2025-08-15T17:32:10.131+08:00  INFO 353597 --- [blade-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-15T17:32:10.133+08:00  INFO 353597 --- [blade-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-15T17:32:10.150+08:00  INFO 353597 --- [blade-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-08-15T17:32:10.295+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=26dbcf18-b97d-3869-918e-5477fbacdf66
+2025-08-15T17:32:10.298+08:00  INFO 353597 --- [blade-gateway] [           main] s.c.l.p.BladePropertySourcePostProcessor : BladePropertySourcePostProcessor init.
+2025-08-15T17:32:10.304+08:00  INFO 353597 --- [blade-gateway] [           main] s.c.l.p.BladePropertySourcePostProcessor : BladePropertySourcePostProcessor process @BladePropertySource bean.
+2025-08-15T17:32:10.339+08:00  WARN 353597 --- [blade-gateway] [           main] s.c.l.p.BladePropertySourcePostProcessor : Not found @BladePropertySource on spring bean class.
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-08-15T17:32:11.354+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-08-15T17:32:11.355+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-08-15T17:32:11.594+08:00  INFO 353597 --- [blade-gateway] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoints beneath base path '/actuator'
+2025-08-15T17:32:11.672+08:00  INFO 353597 --- [blade-gateway] [           main] c.a.c.s.SentinelWebFluxAutoConfiguration : [Sentinel Starter] register Sentinel SentinelWebFluxFilter
+2025-08-15T17:32:11.732+08:00  INFO 353597 --- [blade-gateway] [           main] f.a.AutowiredAnnotationBeanPostProcessor : Inconsistent constructor declaration on bean with name 'org.springblade.core.launch.server.ServerInfo': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.springblade.core.launch.server.ServerInfo(org.springframework.boot.autoconfigure.web.ServerProperties)
+2025-08-15T17:32:11.864+08:00  WARN 353597 --- [blade-gateway] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-15T17:32:14.000+08:00  WARN 353597 --- [blade-gateway] [           main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-15T17:32:14.016+08:00  WARN 353597 --- [blade-gateway] [           main] ServerWebfluxPropertiesMigrationListener : 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.routes[0].id
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].id
+	Key: spring.cloud.gateway.routes[0].uri
+		Line: 29
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].uri
+	Key: spring.cloud.gateway.routes[0].predicates[0]
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].predicates[0]
+	Key: spring.cloud.gateway.routes[0].filters[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].filters[0]
+	Key: spring.cloud.gateway.routes[1].id
+		Line: 34
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].id
+	Key: spring.cloud.gateway.routes[1].uri
+		Line: 35
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].uri
+	Key: spring.cloud.gateway.routes[1].predicates[0]
+		Line: 37
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].predicates[0]
+	Key: spring.cloud.gateway.routes[1].filters[0]
+		Line: 39
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].filters[0]
+
+Property source 'applicationConfig: [classpath:/bootstrap.yml]':
+	Key: spring.cloud.gateway.routes[0].id
+		Line: 28
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].id
+	Key: spring.cloud.gateway.routes[0].uri
+		Line: 29
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].uri
+	Key: spring.cloud.gateway.routes[0].predicates[0]
+		Line: 31
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].predicates[0]
+	Key: spring.cloud.gateway.routes[0].filters[0]
+		Line: 33
+		Replacement: spring.cloud.gateway.server.webflux.routes[0].filters[0]
+	Key: spring.cloud.gateway.routes[1].id
+		Line: 34
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].id
+	Key: spring.cloud.gateway.routes[1].uri
+		Line: 35
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].uri
+	Key: spring.cloud.gateway.routes[1].predicates[0]
+		Line: 37
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].predicates[0]
+	Key: spring.cloud.gateway.routes[1].filters[0]
+		Line: 39
+		Replacement: spring.cloud.gateway.server.webflux.routes[1].filters[0]
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+
+2025-08-15T17:32:14.017+08:00  WARN 353597 --- [blade-gateway] [           main] o.s.b.c.p.m.PropertiesMigrationListener  : 
+The use of configuration keys that have been renamed was found in the environment:
+
+Property source 'applicationConfig: [classpath:/bootstrap.yml]':
+	Key: spring.cloud.gateway.discovery.locator.enabled
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.enabled
+	Key: spring.cloud.gateway.discovery.locator.lower-case-service-id
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id
+
+Property source 'Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/'':
+	Key: spring.cloud.gateway.discovery.locator.enabled
+		Line: 25
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.enabled
+	Key: spring.cloud.gateway.discovery.locator.lower-case-service-id
+		Line: 26
+		Replacement: spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id
+
+
+Each configuration key has been temporarily mapped to its replacement for your convenience. To silence this warning, please update your configuration to use the new keys.
+
+2025-08-15T17:32:14.027+08:00  INFO 353597 --- [blade-gateway] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-15T17:32:14.041+08:00 ERROR 353597 --- [blade-gateway] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2025-08-15T17:32:14.991+08:00  INFO 353597 --- [blade-gateway] [       Thread-3] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-08-15T17:32:14.991+08:00  INFO 353597 --- [blade-gateway] [       Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-08-15T17:32:14.991+08:00  INFO 353597 --- [blade-gateway] [       Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Completed destruction of Publisher
+2025-08-15T17:32:14.992+08:00  INFO 353597 --- [blade-gateway] [       Thread-1] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+2025-08-15T17:32:14.992+08:00  INFO 353597 --- [blade-gateway] [       Thread-3] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Completed destruction of HttpClient
+2025-08-15T17:32:14.992+08:00  INFO 353597 --- [blade-gateway] [       Thread-1] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Completed destruction of ThreadPool

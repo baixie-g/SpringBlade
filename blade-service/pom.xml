@@ -20,6 +20,12 @@
         <module>blade-log</module>
         <module>blade-system</module>
         <module>blade-demo</module>
+        <!-- 新增知识服务模块 -->
+        <module>blade-knowledge-ext</module>
+        <module>blade-knowledge-kmc</module>
+        <module>blade-knowledge-dm</module>
+        <module>blade-knowledge-app</module>
+        <module>blade-knowledge-llm</module>
     </modules>
 
     <dependencies>

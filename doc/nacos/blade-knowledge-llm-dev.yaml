@@ -1,0 +1,68 @@
+# LLM模块开发环境配置
+# 通过Nacos配置中心统一管理
+
+# Neo4j图数据库配置
+neo4j:
+  uri: bolt://127.0.0.1:7687
+  user: neo4j
+  password: 12345678
+  labels:
+    unstructured: ExtUnStruck
+    structured: ExtStruck
+    dynamic-entity: DynamicEntity
+
+# 知识抽取服务配置
+extraction:
+  api:
+    url: http://127.0.0.1:8000/extract
+    timeout: 30000
+    retry-count: 3
+
+# 实体消歧API配置
+disambiguation:
+  api:
+    url: http://localhost:8002/match-candidates
+    timeout: 10000
+    retry-count: 3
+
+# 非结构化抽取类型配置
+unstruct:
+  type: deepke  # deepke 或 model
+
+# 知识管理配置
+kmc:
+  upload:
+    filePath: ${user.dir}/upload/
+
+# 知识应用配置
+app:
+  websocket:
+    enabled: true
+    path: /ws
+
+# 知识发现配置
+dm:
+  search:
+    max-results: 100
+    timeout: 5000
+
+# LLM服务配置
+llm:
+  model:
+    default: gpt-3.5-turbo
+    temperature: 0.7
+    max-tokens: 2000
+  api:
+    timeout: 60000
+    retry-count: 3
+
+# 日志配置
+logging:
+  level:
+    org:
+      neo4j:
+        driver: INFO
+      springframework:
+        data:
+          neo4j: INFO
+    tech.qiantong: debug

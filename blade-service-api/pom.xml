@@ -21,6 +21,12 @@
         <module>blade-user-api</module>
         <module>blade-scope-api</module>
         <module>blade-demo-api</module>
+        <!-- 新增知识服务API模块 -->
+        <module>blade-knowledge-ext-api</module>
+        <module>blade-knowledge-kmc-api</module>
+        <module>blade-knowledge-dm-api</module>
+        <module>blade-knowledge-app-api</module>
+        <module>blade-knowledge-llm-api</module>
     </modules>
 
     <dependencies>
