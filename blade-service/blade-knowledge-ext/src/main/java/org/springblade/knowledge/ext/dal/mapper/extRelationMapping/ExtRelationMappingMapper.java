@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.dal.mapper.extRelationMapping;
 
 import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extRelationMapping.ExtRelationMappingDO;
+import tech.qiantong.qknow.common.ext.dataobject.extRelationMapping.ExtRelationMappingDO;
 import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 

@@ -1,6 +1,6 @@
 package tech.qiantong.qknow.module.ext.api.extRelationMapping.dto;
 
-import lombok.*;
+import lombok.Data;
 
 /**
  * 关系映射 DTO 对象 ext_relation_mapping

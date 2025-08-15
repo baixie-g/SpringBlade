@@ -23,11 +23,11 @@ import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUns
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskText.vo.ExtUnstructTaskTextPageReqVO;
 import tech.qiantong.qknow.module.ext.convert.extUnstructTask.ExtUnstructTaskConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTask.ExtUnstructTaskDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTaskText.ExtUnstructTaskTextDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extraction.ExtExtractionDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTask.ExtUnstructTaskDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskText.ExtUnstructTaskTextDO;
+import tech.qiantong.qknow.common.ext.dataobject.extraction.ExtExtractionDO;
+import tech.qiantong.qknow.common.ext.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
 import tech.qiantong.qknow.module.ext.extEnum.ExtReleaseStatus;
 import tech.qiantong.qknow.module.ext.extEnum.ExtTaskStatus;
 import tech.qiantong.qknow.module.ext.service.extUnstructTask.IExtUnstructTaskService;

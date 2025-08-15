@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extEntityPool.vo.ExtEntityPoolPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extEntityPool.ExtEntityPoolDO;
+import tech.qiantong.qknow.common.ext.dataobject.extEntityPool.ExtEntityPoolDO;
 import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 

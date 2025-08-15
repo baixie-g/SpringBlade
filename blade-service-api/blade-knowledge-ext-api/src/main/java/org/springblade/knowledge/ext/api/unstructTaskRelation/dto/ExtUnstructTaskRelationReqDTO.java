@@ -1,6 +1,6 @@
 package tech.qiantong.qknow.module.ext.api.unstructTaskRelation.dto;
 
-import lombok.*;
+import lombok.Data;
 
 /**
  * 任务文件关联 DTO 对象 ext_unstruct_task_relation

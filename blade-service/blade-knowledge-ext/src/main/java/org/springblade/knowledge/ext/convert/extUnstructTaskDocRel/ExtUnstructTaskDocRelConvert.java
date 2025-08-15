@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
 
 import java.util.List;
 

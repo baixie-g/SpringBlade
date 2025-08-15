@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskText.vo.ExtUnstructTaskTextPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTaskText.ExtUnstructTaskTextDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskText.ExtUnstructTaskTextDO;
 import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 

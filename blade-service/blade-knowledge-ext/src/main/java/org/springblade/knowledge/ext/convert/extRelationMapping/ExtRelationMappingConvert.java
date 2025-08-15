@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extRelationMapping.ExtRelationMappingDO;
+import tech.qiantong.qknow.common.ext.dataobject.extRelationMapping.ExtRelationMappingDO;
 
 import java.util.List;
 

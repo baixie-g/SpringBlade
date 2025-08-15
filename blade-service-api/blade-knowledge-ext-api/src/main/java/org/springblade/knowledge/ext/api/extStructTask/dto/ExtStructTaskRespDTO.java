@@ -1,8 +1,8 @@
 package tech.qiantong.qknow.module.ext.api.extStructTask.dto;
 
+import lombok.Data;
+
 import java.util.Date;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.*;
 
 /**
  * 结构化抽取任务 DTO 对象 ext_struct_task

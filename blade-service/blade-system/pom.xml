@@ -41,11 +41,10 @@
             <artifactId>blade-starter-excel</artifactId>
         </dependency>
 
-        <!-- qknow common for constants and utils -->
+        <!-- blade-common for constants and utils -->
         <dependency>
-            <groupId>tech.qiantong</groupId>
-            <artifactId>blade-qknow-common</artifactId>
-            <version>4.6.0</version>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-common</artifactId>
         </dependency>
 
         <!-- Boot 3 validation starter (jakarta.validation) -->

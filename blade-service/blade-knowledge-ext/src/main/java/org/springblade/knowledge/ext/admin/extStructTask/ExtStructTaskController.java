@@ -21,9 +21,9 @@ import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStruc
 import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStructTaskRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStructTaskSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extStructTask.ExtStructTaskConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extStructTask.ExtStructTask;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extStructTask.ExtStructTaskDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extraction.ExtExtractionDO;
+import tech.qiantong.qknow.common.ext.dataobject.extStructTask.ExtStructTask;
+import tech.qiantong.qknow.common.ext.dataobject.extStructTask.ExtStructTaskDO;
+import tech.qiantong.qknow.common.ext.dataobject.extraction.ExtExtractionDO;
 import tech.qiantong.qknow.module.ext.extEnum.ExtReleaseStatus;
 import tech.qiantong.qknow.module.ext.service.extStructTask.IExtStructTaskService;
 import tech.qiantong.qknow.module.ext.service.neo4j.service.ExtNeo4jService;

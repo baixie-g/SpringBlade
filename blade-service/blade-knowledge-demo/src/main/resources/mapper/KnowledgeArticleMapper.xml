@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.springblade.knowledge.demo.mapper.KnowledgeArticleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.springblade.knowledge.demo.entity.KnowledgeArticle">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="summary" property="summary"/>
+        <result column="category" property="category"/>
+        <result column="tags" property="tags"/>
+        <result column="author" property="author"/>
+        <result column="read_count" property="readCount"/>
+        <result column="like_count" property="likeCount"/>
+        <result column="status" property="status"/>
+        <result column="sort" property="sort"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="create_by" property="createBy"/>
+        <result column="update_by" property="updateBy"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, content, summary, category, tags, author, read_count, like_count, status, sort, 
+        create_time, update_time, create_by, update_by, deleted
+    </sql>
+
+    <!-- 分页查询知识文章 -->
+    <select id="selectKnowledgeArticlePage" resultType="org.springblade.knowledge.demo.vo.KnowledgeArticleVO">
+        SELECT 
+            id, title, summary, category, tags, author, read_count, like_count, status, sort,
+            create_time, update_time, create_by, update_by,
+            CASE 
+                WHEN status = 0 THEN '草稿'
+                WHEN status = 1 THEN '发布'
+                WHEN status = 2 THEN '下架'
+                ELSE '未知'
+            END as status_name
+        FROM knowledge_article
+        <where>
+            deleted = 0
+            <if test="ew.title != null and ew.title != ''">
+                AND title LIKE CONCAT('%', #{ew.title}, '%')
+            </if>
+            <if test="ew.category != null and ew.category != ''">
+                AND category = #{ew.category}
+            </if>
+            <if test="ew.author != null and ew.author != ''">
+                AND author LIKE CONCAT('%', #{ew.author}, '%')
+            </if>
+            <if test="ew.status != null">
+                AND status = #{ew.status}
+            </if>
+        </where>
+        ORDER BY sort ASC, create_time DESC
+    </select>
+
+    <!-- 根据ID查询知识文章详情 -->
+    <select id="selectKnowledgeArticleById" resultType="org.springblade.knowledge.demo.vo.KnowledgeArticleVO">
+        SELECT 
+            id, title, content, summary, category, tags, author, read_count, like_count, status, sort,
+            create_time, update_time, create_by, update_by,
+            CASE 
+                WHEN status = 0 THEN '草稿'
+                WHEN status = 1 THEN '发布'
+                WHEN status = 2 THEN '下架'
+                ELSE '未知'
+            END as status_name
+        FROM knowledge_article
+        WHERE id = #{id} AND deleted = 0
+    </select>
+
+</mapper>

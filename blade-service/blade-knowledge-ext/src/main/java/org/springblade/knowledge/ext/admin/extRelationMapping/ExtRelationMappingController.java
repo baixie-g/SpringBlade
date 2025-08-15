@@ -18,7 +18,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.Ext
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationMapping.vo.ExtRelationMappingSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extRelationMapping.ExtRelationMappingConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extRelationMapping.ExtRelationMappingDO;
+import tech.qiantong.qknow.common.ext.dataobject.extRelationMapping.ExtRelationMappingDO;
 import tech.qiantong.qknow.module.ext.service.extRelationMapping.IExtRelationMappingService;
 
 import jakarta.annotation.Resource;

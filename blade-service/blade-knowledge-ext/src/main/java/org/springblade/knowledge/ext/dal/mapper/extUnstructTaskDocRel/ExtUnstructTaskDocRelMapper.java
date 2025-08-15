@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.dal.mapper.extUnstructTaskDocRel;
 
 import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
 import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 

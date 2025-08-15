@@ -1,8 +1,8 @@
 package org.springblade.knowledge.ext.service.neo4j.service;
 
 import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extNeo4j.ExtNeo4j;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extraction.ExtExtractionDO;
+import tech.qiantong.qknow.common.ext.dataobject.extNeo4j.ExtNeo4j;
+import tech.qiantong.qknow.common.ext.dataobject.extraction.ExtExtractionDO;
 
 import java.util.List;
 

@@ -23,15 +23,18 @@
             <groupId>org.springblade</groupId>
             <artifactId>blade-starter-swagger</artifactId>
         </dependency>
+        <!-- 暂时注释掉这个依赖，因为API模块存在编译问题
         <dependency>
             <groupId>org.springblade</groupId>
             <artifactId>blade-knowledge-ext-api</artifactId>
             <version>${revision}</version>
         </dependency>
-        <!-- Neo4j图数据库支持 -->
+        -->
+        <!-- SpringBlade Neo4j图数据库支持 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-neo4j</artifactId>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-neo4j</artifactId>
+            <version>${revision}</version>
         </dependency>
         <!-- Redis缓存支持 -->
         <dependency>

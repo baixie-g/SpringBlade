@@ -2,8 +2,8 @@ package org.springblade.knowledge.ext.service.extDatasource;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDataSourceTable;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDatasourceDO;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDataSourceTable;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDatasourceDO;
 
 /**
  * 数据源Service接口

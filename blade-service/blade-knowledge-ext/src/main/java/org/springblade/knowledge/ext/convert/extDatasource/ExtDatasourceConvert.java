@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourcePageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourceRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourceSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDatasourceDO;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDatasourceDO;
 
 import java.util.List;
 

@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import tech.qiantong.qknow.common.annotation.Excel;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
+import tech.qiantong.qknow.common.ext.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
 
 import java.io.Serializable;
 import java.util.Date;

@@ -1,0 +1,21 @@
+# Neo4j配置
+spring:
+  neo4j:
+    enabled: true
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: password
+    connection-timeout: 30s
+    max-connection-pool-size: 100
+
+# Neo4j日志配置
+logging:
+  level:
+    org:
+      neo4j:
+        driver: INFO
+      springframework:
+        data:
+          neo4j: INFO
+    org.springblade.neo4j: DEBUG

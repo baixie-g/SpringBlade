@@ -26,6 +26,7 @@
         <module>blade-knowledge-dm</module>
         <module>blade-knowledge-app</module>
         <module>blade-knowledge-llm</module>
+        <module>blade-knowledge-demo</module>
     </modules>
 
     <dependencies>

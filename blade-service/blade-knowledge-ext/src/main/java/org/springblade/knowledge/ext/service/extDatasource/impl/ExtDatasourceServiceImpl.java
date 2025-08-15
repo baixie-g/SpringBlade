@@ -9,9 +9,9 @@ import org.springframework.transaction.annotation.Transactional;
 import tech.qiantong.qknow.common.core.domain.AjaxResult;
 import tech.qiantong.qknow.module.dm.api.datasource.dto.DmDatasourceRespDTO;
 import tech.qiantong.qknow.module.dm.api.service.asset.IDmDatasourceApiService;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDataSourceTable;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDatasourceDO;
-import tech.qiantong.qknow.module.ext.dal.mapper.extDatasource.ExtDatasourceMapper;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDataSourceTable;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDatasourceDO;
+import tech.qiantong.qknow.common.ext.mapper.extDatasource.ExtDatasourceMapper;
 import tech.qiantong.qknow.module.ext.service.extDatasource.ExtDatasourceQueryService;
 import tech.qiantong.qknow.module.ext.service.extDatasource.IExtDatasourceService;
 

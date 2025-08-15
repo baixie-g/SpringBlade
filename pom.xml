@@ -30,6 +30,10 @@
         <module>blade-service</module>
         <module>blade-service-api</module>
         <module>blade-common</module>
+        <module>blade-mybatis</module>
+        <module>blade-neo4j</module>
+        <module>blade-qknow-common</module>
+        <module>blade-redis</module>
     </modules>
 
     <dependencyManagement>

@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.dal.mapper.extSchema;
 
 import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaPageReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchema.ExtSchemaDO;
+import tech.qiantong.qknow.common.ext.dataobject.extSchema.ExtSchemaDO;
 import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 

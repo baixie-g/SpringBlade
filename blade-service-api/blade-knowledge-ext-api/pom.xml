@@ -7,6 +7,26 @@
         <groupId>org.springblade</groupId>
         <version>${revision}</version>
     </parent>
+    <dependencies>
+        <!-- 暂时注释掉这些依赖，因为它们无法从Maven仓库获取
+        <dependency>
+            <groupId>tech.qiantong</groupId>
+            <artifactId>qknow-module-ext-biz</artifactId>
+            <version>3.8.8</version>
+        </dependency>
+        <dependency>
+            <groupId>tech.qiantong</groupId>
+            <artifactId>blade-qknow-ext-api</artifactId>
+            <version>4.6.0</version>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+    </dependencies>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>blade-knowledge-ext-api</artifactId>

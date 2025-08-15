@@ -18,7 +18,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.Ext
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extSchemaAttribute.ExtSchemaAttributeConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
+import tech.qiantong.qknow.common.ext.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
 import tech.qiantong.qknow.module.ext.service.extSchemaAttribute.IExtSchemaAttributeService;
 
 import javax.annotation.Resource;

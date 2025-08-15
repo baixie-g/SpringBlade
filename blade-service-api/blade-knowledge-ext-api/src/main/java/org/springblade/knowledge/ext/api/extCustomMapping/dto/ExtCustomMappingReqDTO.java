@@ -1,6 +1,6 @@
 package tech.qiantong.qknow.module.ext.api.extCustomMapping.dto;
 
-import lombok.*;
+import lombok.Data;
 
 /**
  * 自定义映射 DTO 对象 ext_custom_mapping

@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.dal.dataobject.extExtraction.relationship;
 
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.*;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extExtraction.ExtExtraction;
+import tech.qiantong.qknow.common.ext.dataobject.extExtraction.ExtExtraction;
 
 @Data
 @RelationshipProperties

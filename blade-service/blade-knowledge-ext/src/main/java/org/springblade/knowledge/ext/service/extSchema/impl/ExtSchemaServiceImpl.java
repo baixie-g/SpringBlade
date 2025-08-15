@@ -12,8 +12,8 @@ import tech.qiantong.qknow.common.utils.object.BeanUtils;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchema.ExtSchemaDO;
-import tech.qiantong.qknow.module.ext.dal.mapper.extSchema.ExtSchemaMapper;
+import tech.qiantong.qknow.common.ext.dataobject.extSchema.ExtSchemaDO;
+import tech.qiantong.qknow.common.ext.mapper.extSchema.ExtSchemaMapper;
 import tech.qiantong.qknow.module.ext.service.extSchema.IExtSchemaService;
 
 import javax.annotation.Resource;

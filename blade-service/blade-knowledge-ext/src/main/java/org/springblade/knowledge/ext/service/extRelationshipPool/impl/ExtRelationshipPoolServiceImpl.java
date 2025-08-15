@@ -14,9 +14,9 @@ import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.Ex
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extRelationshipPool.ExtRelationshipPoolConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extEntityPool.ExtEntityPoolDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
-import tech.qiantong.qknow.module.ext.dal.mapper.extRelationshipPool.ExtRelationshipPoolMapper;
+import tech.qiantong.qknow.common.ext.dataobject.extEntityPool.ExtEntityPoolDO;
+import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import tech.qiantong.qknow.common.ext.mapper.extRelationshipPool.ExtRelationshipPoolMapper;
 import tech.qiantong.qknow.module.ext.service.extEntityPool.IExtEntityPoolService;
 import tech.qiantong.qknow.module.ext.service.extRelationshipPool.IExtRelationshipPoolService;
 import tech.qiantong.qknow.module.ext.service.neo4j.service.ExtNeo4jService;

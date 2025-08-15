@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import tech.qiantong.qknow.common.core.domain.AjaxResult;
 import tech.qiantong.qknow.generator.domain.GenTable;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extDatasource.ExtDataSourceTable;
+import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDataSourceTable;
 
 import java.sql.*;
 import java.util.ArrayList;

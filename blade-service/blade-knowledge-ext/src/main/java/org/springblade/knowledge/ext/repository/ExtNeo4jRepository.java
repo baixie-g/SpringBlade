@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.repository;
 
 import org.springframework.data.neo4j.repository.query.Query;
 import org.springframework.data.repository.query.Param;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extExtraction.ExtExtraction;
+import tech.qiantong.qknow.common.ext.dataobject.extExtraction.ExtExtraction;
 import tech.qiantong.qknow.neo4j.repository.BaseRepository;
 
 public interface ExtNeo4jRepository extends BaseRepository<ExtExtraction, Long> {

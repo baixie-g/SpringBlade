@@ -20,7 +20,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.Ex
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extRelationshipPool.ExtRelationshipPoolConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
 import tech.qiantong.qknow.module.ext.service.extRelationshipPool.IExtRelationshipPoolService;
 
 import jakarta.annotation.Resource;

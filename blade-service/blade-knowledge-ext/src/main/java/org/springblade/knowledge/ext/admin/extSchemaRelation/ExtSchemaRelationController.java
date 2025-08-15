@@ -19,7 +19,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtS
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtSchemaRelationRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtSchemaRelationSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extSchemaRelation.ExtSchemaRelationConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchemaRelation.ExtSchemaRelationDO;
+import tech.qiantong.qknow.common.ext.dataobject.extSchemaRelation.ExtSchemaRelationDO;
 import tech.qiantong.qknow.module.ext.service.extSchemaRelation.IExtSchemaRelationService;
 
 import javax.annotation.Resource;

@@ -18,7 +18,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extAttributeMapping.vo.Ex
 import tech.qiantong.qknow.module.ext.controller.admin.extAttributeMapping.vo.ExtAttributeMappingRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extAttributeMapping.vo.ExtAttributeMappingSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extAttributeMapping.ExtAttributeMappingConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extAttributeMapping.ExtAttributeMappingDO;
+import tech.qiantong.qknow.common.ext.dataobject.extAttributeMapping.ExtAttributeMappingDO;
 import tech.qiantong.qknow.module.ext.service.extAttributeMapping.IExtAttributeMappingService;
 
 import javax.annotation.Resource;

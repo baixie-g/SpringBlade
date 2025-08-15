@@ -1,6 +1,6 @@
 package tech.qiantong.qknow.module.ext.api.extSchema.dto;
 
-import lombok.*;
+import lombok.Data;
 
 /**
  * 概念配置 DTO 对象 ext_schema

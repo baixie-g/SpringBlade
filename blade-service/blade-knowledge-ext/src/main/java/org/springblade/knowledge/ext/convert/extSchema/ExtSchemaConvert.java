@@ -5,7 +5,7 @@ import org.mapstruct.factory.Mappers;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchema.vo.ExtSchemaSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchema.ExtSchemaDO;
+import tech.qiantong.qknow.common.ext.dataobject.extSchema.ExtSchemaDO;
 
 import java.util.List;
 

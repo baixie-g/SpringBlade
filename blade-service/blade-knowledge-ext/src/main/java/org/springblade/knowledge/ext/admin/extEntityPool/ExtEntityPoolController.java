@@ -19,7 +19,7 @@ import tech.qiantong.qknow.module.ext.controller.admin.extEntityPool.vo.ExtEntit
 import tech.qiantong.qknow.module.ext.controller.admin.extEntityPool.vo.ExtEntityPoolRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extEntityPool.vo.ExtEntityPoolSaveReqVO;
 import tech.qiantong.qknow.module.ext.convert.extEntityPool.ExtEntityPoolConvert;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extEntityPool.ExtEntityPoolDO;
+import tech.qiantong.qknow.common.ext.dataobject.extEntityPool.ExtEntityPoolDO;
 import tech.qiantong.qknow.module.ext.service.extEntityPool.IExtEntityPoolService;
 
 import jakarta.annotation.Resource;

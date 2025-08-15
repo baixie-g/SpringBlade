@@ -13,8 +13,8 @@ import tech.qiantong.qknow.common.utils.object.BeanUtils;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributePageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
-import tech.qiantong.qknow.module.ext.dal.mapper.extSchemaAttribute.ExtSchemaAttributeMapper;
+import tech.qiantong.qknow.common.ext.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
+import tech.qiantong.qknow.common.ext.mapper.extSchemaAttribute.ExtSchemaAttributeMapper;
 import tech.qiantong.qknow.module.ext.service.extSchemaAttribute.IExtSchemaAttributeService;
 
 import jakarta.annotation.Resource;

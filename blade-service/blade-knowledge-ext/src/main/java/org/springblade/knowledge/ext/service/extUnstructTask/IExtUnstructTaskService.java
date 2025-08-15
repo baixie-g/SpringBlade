@@ -6,8 +6,8 @@ import tech.qiantong.qknow.common.core.page.PageResult;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extUnstructTask.ExtUnstructTaskDO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.extraction.ExtExtractionDO;
+import tech.qiantong.qknow.common.ext.dataobject.extUnstructTask.ExtUnstructTaskDO;
+import tech.qiantong.qknow.common.ext.dataobject.extraction.ExtExtractionDO;
 
 import java.util.Collection;
 import java.util.List;

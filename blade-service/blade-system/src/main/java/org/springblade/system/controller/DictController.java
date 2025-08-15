@@ -38,8 +38,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-import static tech.qiantong.qknow.common.constant.CacheConstants.DICT_LIST;
-import static tech.qiantong.qknow.common.constant.CacheConstants.DICT_VALUE;
+import static org.springblade.common.cache.CacheNames.DICT_LIST;
+import static org.springblade.common.cache.CacheNames.DICT_VALUE;
 
 /**
  * 控制器

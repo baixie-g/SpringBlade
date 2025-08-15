@@ -1,6 +1,6 @@
 package tech.qiantong.qknow.module.ext.api.extAttributeMapping.dto;
 
-import lombok.*;
+import lombok.Data;
 
 /**
  * 属性映射 DTO 对象 ext_attribute_mapping

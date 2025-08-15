@@ -12,8 +12,8 @@ import tech.qiantong.qknow.common.utils.object.BeanUtils;
 import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationPageReqVO;
 import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationRespVO;
 import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationSaveReqVO;
-import tech.qiantong.qknow.module.ext.dal.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
-import tech.qiantong.qknow.module.ext.dal.mapper.unstructTaskRelation.ExtUnstructTaskRelationMapper;
+import tech.qiantong.qknow.common.ext.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
+import tech.qiantong.qknow.common.ext.mapper.unstructTaskRelation.ExtUnstructTaskRelationMapper;
 import tech.qiantong.qknow.module.ext.service.unstructTaskRelation.IExtUnstructTaskRelationService;
 import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
 
