@@ -1,10 +1,10 @@
 package org.springblade.knowledge.ext.api.service;
 
 
-import org.springblade.knowledge.ext.dal.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
+import org.springblade.knowledge.ext.api.extSchemaAttribute.dto.ExtSchemaAttributeRespDTO;
 
 import java.util.List;
 
 public interface IExtAttributeApiService {
-    public List<ExtSchemaAttributeDO> getExtSchemaAttributeList();
+    public List<ExtSchemaAttributeRespDTO> getExtSchemaAttributeList();
 }

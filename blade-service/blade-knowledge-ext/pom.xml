@@ -23,13 +23,12 @@
             <groupId>org.springblade</groupId>
             <artifactId>blade-starter-swagger</artifactId>
         </dependency>
-        <!-- 暂时注释掉这个依赖，因为API模块存在编译问题
+        <!-- 启用API依赖 -->
         <dependency>
             <groupId>org.springblade</groupId>
             <artifactId>blade-knowledge-ext-api</artifactId>
             <version>${revision}</version>
         </dependency>
-        -->
         <!-- SpringBlade Neo4j图数据库支持 -->
         <dependency>
             <groupId>org.springblade</groupId>
@@ -50,6 +49,24 @@
             <groupId>org.springblade</groupId>
             <artifactId>blade-core-cloud</artifactId>
             <version>4.6.0</version>
+        </dependency>
+        <!-- 添加对blade-mybatis的依赖，提供BaseMapperX等扩展类 -->
+        <dependency>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-mybatis</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <!-- 添加对blade-knowledge-kmc-api的依赖，提供IKmcApiService接口 -->
+        <dependency>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-knowledge-kmc-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <!-- 添加对blade-common的依赖，提供@Excel注解和通用工具类 -->
+        <dependency>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-common</artifactId>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
 

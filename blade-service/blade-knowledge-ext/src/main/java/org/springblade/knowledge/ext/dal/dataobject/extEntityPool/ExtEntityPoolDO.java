@@ -1,10 +1,15 @@
 package org.springblade.knowledge.ext.dal.dataobject.extEntityPool;
 
-import com.baomidou.mybatisplus.annotation.*;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
-
 import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.*;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
+import com.baomidou.mybatisplus.annotation.TableName;
+import org.springblade.common.core.domain.BaseEntity;
+
 
 /**
  * 实体池 DO 对象 ext_entity_pool

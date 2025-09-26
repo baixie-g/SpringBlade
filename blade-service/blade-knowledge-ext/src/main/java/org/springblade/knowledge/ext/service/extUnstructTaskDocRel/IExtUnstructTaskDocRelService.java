@@ -1,11 +1,11 @@
 package org.springblade.knowledge.ext.service.extUnstructTaskDocRel;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelPageReqVO;
+import org.springblade.knowledge.ext.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelRespVO;
+import org.springblade.knowledge.ext.admin.extUnstructTaskDocRel.vo.ExtUnstructTaskDocRelSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extUnstructTaskDocRel.ExtUnstructTaskDocRelDO;
 
 import java.util.Collection;
 import java.util.List;

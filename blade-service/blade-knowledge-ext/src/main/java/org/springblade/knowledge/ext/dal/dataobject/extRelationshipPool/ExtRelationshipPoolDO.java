@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.dal.dataobject.extRelationshipPool;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 import java.util.Date;
 

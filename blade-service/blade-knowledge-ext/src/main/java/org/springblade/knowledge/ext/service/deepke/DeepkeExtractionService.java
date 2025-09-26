@@ -1,7 +1,7 @@
 package org.springblade.knowledge.ext.service.deepke;
 
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-//import tech.qiantong.qknow.module.ext.api.extration.dto.ExtExtractionDTO;
+import org.springblade.common.core.domain.AjaxResult;
+//import org.springblade.knowledge.ext.api.extration.dto.ExtExtractionDTO;
 
 /**
  * 知识抽取

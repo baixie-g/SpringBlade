@@ -2,11 +2,11 @@ package org.springblade.knowledge.ext.dal.mapper.extRelationshipPool;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
-import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
-import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import org.springblade.mybatis.core.mapper.BaseMapperX;
+import org.springblade.mybatis.core.query.LambdaQueryWrapperX;
 
 import java.util.Arrays;
 import java.util.HashSet;

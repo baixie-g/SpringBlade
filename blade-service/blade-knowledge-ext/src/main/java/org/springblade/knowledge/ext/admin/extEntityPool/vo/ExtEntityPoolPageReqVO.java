@@ -1,9 +1,9 @@
 package org.springblade.knowledge.ext.admin.extEntityPool.vo;
 
+import lombok.*;
+import java.util.*;
 import io.swagger.v3.oas.annotations.media.Schema;
-import tech.qiantong.qknow.common.core.page.PageParam;
-
-import java.util.Date;
+import org.springblade.common.core.page.PageParam;
 
 @Schema(description = "管理后台 - 实体池分页 Request VO")
 @Data

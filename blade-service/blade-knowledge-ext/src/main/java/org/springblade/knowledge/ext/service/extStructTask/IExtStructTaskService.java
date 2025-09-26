@@ -1,13 +1,13 @@
 package org.springblade.knowledge.ext.service.extStructTask;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStructTaskPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStructTaskRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extStructTask.vo.ExtStructTaskSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extStructTask.ExtStructTask;
-import tech.qiantong.qknow.common.ext.dataobject.extStructTask.ExtStructTaskDO;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extStructTask.vo.ExtStructTaskPageReqVO;
+import org.springblade.knowledge.ext.admin.extStructTask.vo.ExtStructTaskRespVO;
+import org.springblade.knowledge.ext.admin.extStructTask.vo.ExtStructTaskSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extStructTask.ExtStructTask;
+import org.springblade.knowledge.ext.dal.dataobject.extStructTask.ExtStructTaskDO;
 
 import java.util.Collection;
 import java.util.List;

@@ -2,9 +2,9 @@ package org.springblade.knowledge.ext.convert.extRelationshipPool;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package tech.qiantong.qknow.module.ext.api.extSchemaAttribute.dto;
+package org.springblade.knowledge.ext.api.extSchemaAttribute.dto;
 
 import lombok.Data;
 

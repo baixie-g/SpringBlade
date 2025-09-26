@@ -1,6 +1,6 @@
 package org.springblade.knowledge.ext.service.extraction;
 
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
+import org.springblade.common.core.domain.AjaxResult;
 
 import java.util.List;
 

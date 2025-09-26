@@ -1,7 +1,8 @@
 package org.springblade.knowledge.ext.dal.dataobject.extSchemaAttribute;
 
 import com.baomidou.mybatisplus.annotation.*;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import lombok.*;
+import org.springblade.common.core.domain.BaseEntity;
 
 /**
  * 概念属性 DO 对象 ext_schema_attribute

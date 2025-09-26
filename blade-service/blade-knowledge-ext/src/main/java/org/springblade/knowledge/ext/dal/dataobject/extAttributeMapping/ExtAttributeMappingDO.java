@@ -1,7 +1,8 @@
 package org.springblade.knowledge.ext.dal.dataobject.extAttributeMapping;
 
 import com.baomidou.mybatisplus.annotation.*;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import lombok.*;
+import org.springblade.common.core.domain.BaseEntity;
 
 /**
  * 属性映射 DO 对象 ext_attribute_mapping

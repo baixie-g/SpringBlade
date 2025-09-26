@@ -1,11 +1,11 @@
 package org.springblade.knowledge.ext.service.extSchemaAttribute;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributePageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributeSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extSchemaAttribute.vo.ExtSchemaAttributePageReqVO;
+import org.springblade.knowledge.ext.admin.extSchemaAttribute.vo.ExtSchemaAttributeRespVO;
+import org.springblade.knowledge.ext.admin.extSchemaAttribute.vo.ExtSchemaAttributeSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
 
 import java.util.Collection;
 import java.util.List;

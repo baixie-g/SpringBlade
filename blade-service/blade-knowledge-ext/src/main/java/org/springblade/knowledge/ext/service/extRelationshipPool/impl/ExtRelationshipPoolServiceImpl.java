@@ -7,30 +7,30 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.common.exception.ServiceException;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
-import tech.qiantong.qknow.module.ext.convert.extRelationshipPool.ExtRelationshipPoolConvert;
-import tech.qiantong.qknow.common.ext.dataobject.extEntityPool.ExtEntityPoolDO;
-import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
-import tech.qiantong.qknow.common.ext.mapper.extRelationshipPool.ExtRelationshipPoolMapper;
-import tech.qiantong.qknow.module.ext.service.extEntityPool.IExtEntityPoolService;
-import tech.qiantong.qknow.module.ext.service.extRelationshipPool.IExtRelationshipPoolService;
-import tech.qiantong.qknow.module.ext.service.neo4j.service.ExtNeo4jService;
-import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
-import tech.qiantong.qknow.neo4j.domain.DynamicEntity;
-import tech.qiantong.qknow.neo4j.repository.DynamicRepository;
-import tech.qiantong.qknow.neo4j.wrapper.Neo4jBuildWrapper;
-import tech.qiantong.qknow.neo4j.wrapper.Neo4jQueryWrapper;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.common.exception.ServiceException;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
+import org.springblade.knowledge.ext.convert.extRelationshipPool.ExtRelationshipPoolConvert;
+import org.springblade.knowledge.ext.dal.dataobject.extEntityPool.ExtEntityPoolDO;
+import org.springblade.knowledge.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import org.springblade.knowledge.ext.dal.mapper.extRelationshipPool.ExtRelationshipPoolMapper;
+import org.springblade.knowledge.ext.service.extEntityPool.IExtEntityPoolService;
+import org.springblade.knowledge.ext.service.extRelationshipPool.IExtRelationshipPoolService;
+import org.springblade.knowledge.ext.service.neo4j.service.ExtNeo4jService;
+import org.springblade.mybatis.core.query.LambdaQueryWrapperX;
+import org.springblade.neo4j.domain.DynamicEntity;
+import org.springblade.neo4j.repository.DynamicRepository;
+import org.springblade.neo4j.wrapper.Neo4jBuildWrapper;
+import org.springblade.neo4j.wrapper.Neo4jQueryWrapper;
 
 import jakarta.annotation.Resource;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.util.*;
 
-import static tech.qiantong.qknow.module.ext.enums.ErrorCodeConstants.*;
+import static org.springblade.knowledge.ext.enums.ErrorCodeConstants.*;
 
 /**
  * 关系池 Service 实现类

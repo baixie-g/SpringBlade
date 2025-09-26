@@ -2,10 +2,10 @@ package org.springblade.knowledge.ext.convert.extSchemaRelation;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtSchemaRelationPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtSchemaRelationRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaRelation.vo.ExtSchemaRelationSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extSchemaRelation.ExtSchemaRelationDO;
+import org.springblade.knowledge.ext.admin.extSchemaRelation.vo.ExtSchemaRelationPageReqVO;
+import org.springblade.knowledge.ext.admin.extSchemaRelation.vo.ExtSchemaRelationRespVO;
+import org.springblade.knowledge.ext.admin.extSchemaRelation.vo.ExtSchemaRelationSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extSchemaRelation.ExtSchemaRelationDO;
 
 import java.util.List;
 

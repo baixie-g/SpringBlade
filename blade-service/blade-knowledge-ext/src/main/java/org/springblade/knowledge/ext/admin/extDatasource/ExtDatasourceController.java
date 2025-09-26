@@ -5,10 +5,10 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tech.qiantong.qknow.common.core.controller.BaseController;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDataSourceTable;
-import tech.qiantong.qknow.module.ext.service.extDatasource.IExtDatasourceService;
+import org.springblade.common.core.controller.BaseController;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.knowledge.ext.dal.dataobject.extDatasource.ExtDataSourceTable;
+import org.springblade.knowledge.ext.service.extDatasource.IExtDatasourceService;
 
 import jakarta.annotation.Resource;
 

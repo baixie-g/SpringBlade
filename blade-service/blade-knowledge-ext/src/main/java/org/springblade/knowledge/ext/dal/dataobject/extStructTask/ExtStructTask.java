@@ -1,7 +1,7 @@
 package org.springblade.knowledge.ext.dal.dataobject.extStructTask;
 
 import lombok.Data;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 import java.util.List;
 

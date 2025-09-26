@@ -34,6 +34,7 @@
         <module>blade-neo4j</module>
         <module>blade-qknow-common</module>
         <module>blade-redis</module>
+        <module>blade-qKnow</module>
     </modules>
 
     <dependencyManagement>

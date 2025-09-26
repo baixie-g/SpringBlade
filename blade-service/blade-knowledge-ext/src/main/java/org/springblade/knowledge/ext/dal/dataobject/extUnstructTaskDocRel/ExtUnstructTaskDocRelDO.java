@@ -1,7 +1,8 @@
 package org.springblade.knowledge.ext.dal.dataobject.extUnstructTaskDocRel;
 
 import com.baomidou.mybatisplus.annotation.*;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import lombok.*;
+import org.springblade.common.core.domain.BaseEntity;
 
 /**
  * 任务文件关联 DO 对象 ext_unstruct_task_doc_rel

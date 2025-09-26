@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.admin.extUnstructTask.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.page.PageParam;
+import org.springblade.common.core.page.PageParam;
 
 import java.util.Date;
 

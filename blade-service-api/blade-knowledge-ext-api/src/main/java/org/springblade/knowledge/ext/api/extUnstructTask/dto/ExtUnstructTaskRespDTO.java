@@ -1,4 +1,4 @@
-package tech.qiantong.qknow.module.ext.api.extUnstructTask.dto;
+package org.springblade.knowledge.ext.api.extUnstructTask.dto;
 
 import lombok.Data;
 

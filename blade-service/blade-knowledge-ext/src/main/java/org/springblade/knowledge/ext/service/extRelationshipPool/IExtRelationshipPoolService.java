@@ -1,13 +1,13 @@
 package org.springblade.knowledge.ext.service.extRelationshipPool;
 
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolPageReqVO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolRespVO;
+import org.springblade.knowledge.ext.admin.extRelationshipPool.vo.ExtRelationshipPoolSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extRelationshipPool.ExtRelationshipPoolDO;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.util.Collection;
 import java.util.List;
 

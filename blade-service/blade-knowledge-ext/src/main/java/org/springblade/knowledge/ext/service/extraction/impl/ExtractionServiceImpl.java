@@ -7,9 +7,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.utils.StringUtils;
-import tech.qiantong.qknow.module.ext.service.extraction.ExtractionService;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.utils.StringUtils;
+import org.springblade.knowledge.ext.service.extraction.ExtractionService;
 
 import jakarta.annotation.Resource;
 import java.util.HashMap;

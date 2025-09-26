@@ -1,7 +1,7 @@
 package org.springblade.knowledge.ext.admin.extRelationshipPool.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import tech.qiantong.qknow.common.core.page.PageParam;
+import org.springblade.common.core.page.PageParam;
 
 import java.util.Date;
 

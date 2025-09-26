@@ -1,13 +1,13 @@
 package org.springblade.knowledge.ext.service.extUnstructTask;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extUnstructTask.ExtUnstructTaskDO;
-import tech.qiantong.qknow.common.ext.dataobject.extraction.ExtExtractionDO;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extUnstructTask.vo.ExtUnstructTaskPageReqVO;
+import org.springblade.knowledge.ext.admin.extUnstructTask.vo.ExtUnstructTaskRespVO;
+import org.springblade.knowledge.ext.admin.extUnstructTask.vo.ExtUnstructTaskSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extUnstructTask.ExtUnstructTaskDO;
+import org.springblade.knowledge.ext.dal.dataobject.extraction.ExtExtractionDO;
 
 import java.util.Collection;
 import java.util.List;

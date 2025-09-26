@@ -4,9 +4,9 @@ import com.alibaba.fastjson2.JSONArray;
 import com.alibaba.fastjson2.JSONObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.generator.domain.GenTable;
-import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDataSourceTable;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.generator.domain.GenTable;
+import org.springblade.knowledge.ext.dal.dataobject.extDatasource.ExtDataSourceTable;
 
 import java.sql.*;
 import java.util.ArrayList;

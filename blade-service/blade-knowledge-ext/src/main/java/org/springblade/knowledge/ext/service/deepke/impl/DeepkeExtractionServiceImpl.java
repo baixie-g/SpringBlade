@@ -2,9 +2,9 @@ package org.springblade.knowledge.ext.service.deepke.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import tech.qiantong.qknow.common.core.domain.AjaxResult;
-import tech.qiantong.qknow.common.utils.StringUtils;
-import tech.qiantong.qknow.module.ext.service.deepke.DeepkeExtractionService;
+import org.springblade.common.core.domain.AjaxResult;
+import org.springblade.common.utils.StringUtils;
+import org.springblade.knowledge.ext.service.deepke.DeepkeExtractionService;
 
 import java.io.BufferedReader;
 import java.io.File;

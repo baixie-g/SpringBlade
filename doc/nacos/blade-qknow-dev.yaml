@@ -1,0 +1,156 @@
+# qKnow 服务配置
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password:
+      database: 0
+      ssl:
+        enabled: false
+
+# qKnow 数据源配置
+blade:
+  datasource:
+    dev:
+      url: jdbc:mysql://localhost:3306/qknow_dev?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowMultiQueries=true&serverTimezone=GMT%2B8
+      username: root
+      password: 123456
+
+# qKnow 特定配置
+qknow:
+  name: qKnow
+  version: 3.8.8
+  copyrightYear: 2025
+  profile: ${user.dir}/upload/
+  addressEnabled: false
+  captchaType: math
+
+# 服务配置
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+# 日志配置
+logging:
+  level:
+    org.springblade: debug
+    org.springframework: warn
+
+# 用户配置
+user:
+  password:
+    maxRetryCount: 5
+    lockTime: 10
+    universalPassword:
+
+# Token配置
+token:
+  header: Authorization
+  secret: abcdefghijklmnopqrstuvwxyz
+  expireTime: 600
+
+# MyBatis Plus配置
+mybatis-plus:
+  typeAliasesPackage: org.springblade.**.dataobject, org.springblade.**.domain
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+  configLocation: classpath:mybatis/mybatis-config.xml
+  global-config:
+    banner: false
+    db-config:
+      idType: AUTO
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      insertStrategy: NOT_NULL
+      updateStrategy: NOT_NULL
+      where-strategy: NOT_NULL
+
+# PageHelper分页插件
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true
+  params: count=countSql
+
+# XSS防护
+xss:
+  enabled: true
+  excludes: /system/notice
+  urlPatterns: /system/*,/monitor/*,/tool/*
+
+# Swagger配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'system'
+      paths-to-match: '/**'
+      packages-to-scan: org.springblade.qknow.module.system.controller
+    - group: 'app'
+      paths-to-match: '/**'
+      packages-to-scan: org.springblade.qknow.module.app.controller
+    - group: 'dm'
+      paths-to-match: '/**'
+      packages-to-scan: org.springblade.qknow.module.dm.controller
+    - group: 'ext'
+      paths-to-match: '/**'
+      packages-to-scan: org.springblade.qknow.module.ext.controller
+    - group: 'kmc'
+      paths-to-match: '/**'
+      packages-to-scan: org.springblade.qknow.module.kmc.controller
+
+# Knife4j配置
+knife4j:
+  enable: true
+  documents:
+    -
+      group: 2.X版本
+      name: 接口签名
+      locations: classpath:sign/*
+  setting:
+    language: zh-CN
+    enable-swagger-models: true
+    enable-document-manage: true
+    swagger-model-name: 实体类列表
+    enable-version: false
+    enable-reload-cache-parameter: false
+    enable-after-script: true
+    enable-filter-multipart-api-method-type: POST
+    enable-filter-multipart-apis: false
+    enable-request-cache: true
+    enable-host: false
+    enable-host-text: 127.0.0.1:8080
+    enable-home-custom: true
+    home-custom-path: classpath:markdown/home.md
+    enable-search: false
+    enable-footer: false
+    enable-footer-custom: true
+    footer-custom-content: MIT | Copyright  2025-[江苏千桐科技有限公司])
+    enable-dynamic-parameter: false
+    enable-debug: true
+    enable-open-api: true
+    enable-group: true
+  cors: false
+  production: false
+  basic:
+    enable: true
+    username: qknow
+    password: qknow12313
+
+# Text2Cypher API 配置
+text2cypher:
+  api:
+    base-url: http://localhost:8003/api/v1
+    timeout: 60000
+    retry:
+      max-attempts: 3
+      backoff-delay: 1000
+  llm:
+    default-model: ark-model
+    default-database: neo4j
+    default-workflow: text2cypher_with_1_retry_and_output_check

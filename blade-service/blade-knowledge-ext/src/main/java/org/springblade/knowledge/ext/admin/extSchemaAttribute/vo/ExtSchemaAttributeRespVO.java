@@ -1,7 +1,8 @@
 package org.springblade.knowledge.ext.admin.extSchemaAttribute.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import tech.qiantong.qknow.common.annotation.Excel;
+import org.springblade.common.annotation.Excel;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;

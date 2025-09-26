@@ -1,9 +1,9 @@
-package tech.qiantong.qknow.module.ext.api.service;
+package org.springblade.knowledge.ext.api.service;
 
-import tech.qiantong.qknow.common.ext.dataobject.extUnstructTaskText.ExtUnstructTaskTextDO;
+import org.springblade.knowledge.ext.api.extUnstructTask.dto.ExtUnstructTaskRespDTO;
 
 import java.util.List;
 
 public interface IExtUnstructTaskTextApiService {
-    public List<ExtUnstructTaskTextDO> getUnstructTaskTextList();
+    public List<ExtUnstructTaskRespDTO> getUnstructTaskTextList();
 }

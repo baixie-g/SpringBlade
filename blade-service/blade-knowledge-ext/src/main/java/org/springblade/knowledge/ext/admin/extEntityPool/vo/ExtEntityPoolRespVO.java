@@ -1,8 +1,8 @@
 package org.springblade.knowledge.ext.admin.extEntityPool.vo;
 
+import lombok.*;
+import java.util.*;
 import io.swagger.v3.oas.annotations.media.Schema;
-
-import java.util.Date;
 
 @Schema(description = "管理后台 - 实体池 Response VO")
 @Data

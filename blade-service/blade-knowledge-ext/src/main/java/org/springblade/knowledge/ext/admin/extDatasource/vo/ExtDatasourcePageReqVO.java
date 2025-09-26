@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.admin.extDatasource.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.page.PageParam;
+import org.springblade.common.core.page.PageParam;
 
 /**
  * 数据源 Request VO 对象 ext_datasource

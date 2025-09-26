@@ -2,10 +2,10 @@ package org.springblade.knowledge.ext.convert.unstructTaskRelation;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationPageReqVO;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationRespVO;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
 
 import java.util.List;
 

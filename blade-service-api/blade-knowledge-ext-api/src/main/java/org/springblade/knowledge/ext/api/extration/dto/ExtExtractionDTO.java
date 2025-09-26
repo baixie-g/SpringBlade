@@ -1,7 +1,7 @@
-package tech.qiantong.qknow.module.ext.api.extration.dto;
+package org.springblade.knowledge.ext.api.extration.dto;
 
 import lombok.Data;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 @Data
 public class ExtExtractionDTO extends BaseEntity {

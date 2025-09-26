@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.admin.extSchemaRelation.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,6 +1,6 @@
 package org.springblade.knowledge.ext.enums;
 
-import tech.qiantong.qknow.common.exception.ErrorCode;
+import org.springblade.common.exception.ErrorCode;
 
 /**
  * ext 模块错误码枚举类

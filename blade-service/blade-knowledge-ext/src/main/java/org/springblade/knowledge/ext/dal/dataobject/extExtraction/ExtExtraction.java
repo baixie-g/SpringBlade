@@ -5,9 +5,9 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.*;
-import tech.qiantong.qknow.neo4j.domain.BaseNeo4jEntity;
-import tech.qiantong.qknow.neo4j.domain.DynamicEntity;
-import tech.qiantong.qknow.neo4j.domain.relationship.DynamicEntityRelationship;
+import org.springblade.neo4j.domain.BaseNeo4jEntity;
+import org.springblade.neo4j.domain.DynamicEntity;
+import org.springblade.neo4j.domain.relationship.DynamicEntityRelationship;
 
 import java.util.List;
 import java.util.Map;

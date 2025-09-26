@@ -2,11 +2,11 @@ package org.springblade.knowledge.ext.admin.extUnstructTaskText.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 import jakarta.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 /**
  * 任务文件段落关联 创建/修改 Request VO ext_unstruct_task_text

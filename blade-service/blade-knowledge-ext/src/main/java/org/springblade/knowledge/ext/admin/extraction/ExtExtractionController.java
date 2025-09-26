@@ -1,8 +1,10 @@
 package org.springblade.knowledge.ext.admin.extraction;
 
 import lombok.extern.slf4j.Slf4j;
-import tech.qiantong.qknow.module.ext.service.deepke.DeepkeExtractionService;
-import tech.qiantong.qknow.module.ext.service.neo4j.service.ExtNeo4jService;
+import org.springblade.knowledge.ext.service.deepke.DeepkeExtractionService;
+import org.springblade.knowledge.ext.service.neo4j.service.ExtNeo4jService;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
 

@@ -1,11 +1,11 @@
 package org.springblade.knowledge.ext.service.unstructTaskRelation;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationPageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationPageReqVO;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationRespVO;
+import org.springblade.knowledge.ext.admin.unstructTaskRelation.vo.ExtUnstructTaskRelationSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.unstructTaskRelation.ExtUnstructTaskRelationDO;
 
 import java.util.Collection;
 import java.util.List;

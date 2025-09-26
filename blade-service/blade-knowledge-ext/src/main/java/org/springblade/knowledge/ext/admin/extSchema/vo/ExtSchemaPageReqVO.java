@@ -3,7 +3,7 @@ package org.springblade.knowledge.ext.admin.extSchema.vo;
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.page.PageParam;
+import org.springblade.common.core.page.PageParam;
 
 /**
  * 概念配置 Request VO 对象 ext_schema

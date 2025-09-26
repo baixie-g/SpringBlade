@@ -2,10 +2,10 @@ package org.springblade.knowledge.ext.convert.extDatasource;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourcePageReqVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourceRespVO;
-import tech.qiantong.qknow.module.ext.controller.admin.extDatasource.vo.ExtDatasourceSaveReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extDatasource.ExtDatasourceDO;
+import org.springblade.knowledge.ext.admin.extDatasource.vo.ExtDatasourcePageReqVO;
+import org.springblade.knowledge.ext.admin.extDatasource.vo.ExtDatasourceRespVO;
+import org.springblade.knowledge.ext.admin.extDatasource.vo.ExtDatasourceSaveReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extDatasource.ExtDatasourceDO;
 
 import java.util.List;
 

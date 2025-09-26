@@ -1,10 +1,10 @@
 package org.springblade.knowledge.ext.dal.mapper.extSchemaAttribute;
 
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extSchemaAttribute.vo.ExtSchemaAttributePageReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
-import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
-import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extSchemaAttribute.vo.ExtSchemaAttributePageReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extSchemaAttribute.ExtSchemaAttributeDO;
+import org.springblade.mybatis.core.mapper.BaseMapperX;
+import org.springblade.mybatis.core.query.LambdaQueryWrapperX;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,11 +1,11 @@
 package org.springblade.knowledge.ext.dal.mapper.extUnstructTask;
 
 import org.apache.ibatis.annotations.Update;
-import tech.qiantong.qknow.common.core.page.PageResult;
-import tech.qiantong.qknow.module.ext.controller.admin.extUnstructTask.vo.ExtUnstructTaskPageReqVO;
-import tech.qiantong.qknow.common.ext.dataobject.extUnstructTask.ExtUnstructTaskDO;
-import tech.qiantong.qknow.framework.mybatis.core.mapper.BaseMapperX;
-import tech.qiantong.qknow.framework.mybatis.core.query.LambdaQueryWrapperX;
+import org.springblade.common.core.page.PageResult;
+import org.springblade.knowledge.ext.admin.extUnstructTask.vo.ExtUnstructTaskPageReqVO;
+import org.springblade.knowledge.ext.dal.dataobject.extUnstructTask.ExtUnstructTaskDO;
+import org.springblade.mybatis.core.mapper.BaseMapperX;
+import org.springblade.mybatis.core.query.LambdaQueryWrapperX;
 
 import java.util.Arrays;
 import java.util.HashSet;

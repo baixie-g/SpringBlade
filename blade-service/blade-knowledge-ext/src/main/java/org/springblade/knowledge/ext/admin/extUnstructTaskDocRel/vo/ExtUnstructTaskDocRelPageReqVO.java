@@ -2,7 +2,7 @@ package org.springblade.knowledge.ext.admin.extUnstructTaskDocRel.vo;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
-import tech.qiantong.qknow.common.core.page.PageParam;
+import org.springblade.common.core.page.PageParam;
 
 /**
  * 任务文件关联 Request VO 对象 ext_unstruct_task_doc_rel

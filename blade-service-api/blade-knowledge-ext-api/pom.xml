@@ -25,6 +25,13 @@
             <artifactId>jsr250-api</artifactId>
             <version>1.0</version>
         </dependency>
+        
+        <!-- 添加对blade-qknow-common的依赖 -->
+        <dependency>
+            <groupId>org.springblade</groupId>
+            <artifactId>blade-qknow-common</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
     </dependencies>
     <modelVersion>4.0.0</modelVersion>

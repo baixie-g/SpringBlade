@@ -1,7 +1,7 @@
 package org.springblade.knowledge.ext.dal.dataobject.extDatasource;
 
 import com.baomidou.mybatisplus.annotation.*;
-import tech.qiantong.qknow.common.core.domain.BaseEntity;
+import org.springblade.common.core.domain.BaseEntity;
 
 /**
  * 数据源 DO 对象 ext_datasource
